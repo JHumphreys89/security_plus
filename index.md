@@ -8,11 +8,11 @@ layout: default
 
 | Domain       | Description                                                | Percentage of Examination |
 |:-------------|:-----------------------------------------------------------|:--------------------------|
-| One          | [Attacks, Threats, and Vulnerabilities](./domain_one.html) | 24%                       |
-| Two          | [Architecture and Design](./domain_two.html)               | 21%                       |
-| Three        | [Implementation](./domain_three.html)                      | 25%                       |
-| Four         | [Operations and Incident Response](./domain_four.html)     | 16%                       |
-| Five         | [Governance, Risk, and Compliance](./domain_five.html)     | 14%                       |
+| One          | [Attacks, Threats, and Vulnerabilities](./domains/domain_one.html) | 24%                       |
+| Two          | [Architecture and Design](./domains/domain_two.html)               | 21%                       |
+| Three        | [Implementation](./domains/domain_three.html)                      | 25%                       |
+| Four         | [Operations and Incident Response](./domains/domain_four.html)     | 16%                       |
+| Five         | [Governance, Risk, and Compliance](./domains/domain_five.html)     | 14%                       |
 
 ## Resources
 
