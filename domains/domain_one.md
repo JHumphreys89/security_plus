@@ -6,6 +6,7 @@ layout: default
 ## Attacks, Threats, and Vulnerabilities
 _Percentage of Examination_: 24%
 ## Subdomains
+
 | Subdomain | Description                                                                         |
 |:----------|:------------------------------------------------------------------------------------|
 | 1.1       | Compare and contrast different types of social engineering techniques.              |
