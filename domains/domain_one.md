@@ -220,10 +220,10 @@ _Given a scenario, analyze potential indicators to determine the type of attack.
 # Study Cards
 
 * [Subdomain 1.1](../resources/study_cards/sub_one_one.html)
-* [Subdomain 1.2](..resources/study_cards/sub_one_two.html)
+* [Subdomain 1.2](../resources/study_cards/sub_one_two.html)
 * [Subdomain 1.3](../resources/study_cards/sub_one_three.html)
-* [Subdomain 1.4](..resources/study_cards/sub_one_four.html)
-* [Subdomain 1.5](..resources/study_cards/sub_one_five.html)
-* [Subdomain 1.6](..resources/study_cards/sub_one_six.html)
-* [Subdomain 1.7](..resources/study_cards/sub_one_seven.html)
-* [Subdomain 1.8](..resources/study_cards/sub_one_eight.html)
+* [Subdomain 1.4](../resources/study_cards/sub_one_four.html)
+* [Subdomain 1.5](../resources/study_cards/sub_one_five.html)
+* [Subdomain 1.6](../resources/study_cards/sub_one_six.html)
+* [Subdomain 1.7](../resources/study_cards/sub_one_seven.html)
+* [Subdomain 1.8](../resources/study_cards/sub_one_eight.html)
