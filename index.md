@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Security+ SY0-601 Study Contents
+# Notes, Documentation and Resources
 
 ## Exam Objectives (Domains) [PERCENTAGE OF EXAMINATION]
 
@@ -20,3 +20,5 @@ layout: default
 * COMPTIA - Acronyms List Handout - [Download Here](./resources/comptia-security-sy0-601-exam-acronym-list.pdf)
 
 ## Contribute
+
+If you would like to contribute to this repo, please let me know via [email](mailto:sec-github@jonhumphreys.com). You can also reach out to me through [LinkedIn](https://www.linkedin.com/in/jonehumphreys/).
