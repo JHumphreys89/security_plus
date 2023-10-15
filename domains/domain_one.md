@@ -4,11 +4,11 @@ layout: default
 
 # Domain One
 
-## Attacks, Threats, and Vulnerabilities
+**Attacks, Threats, and Vulnerabilities**
 
 _Percentage of Examination_: 24%
 
-## Subdomains
+### Subdomains
 
 | Subdomain | Description                                                                         |
 |:----------|:------------------------------------------------------------------------------------|
@@ -21,9 +21,13 @@ _Percentage of Examination_: 24%
 | 1.7       | Summarize the techniques used in security assessments.                              |
 | 1.8       | Explain the technigues used in penetration testing.                                 |
 
-### Subdomain 1.1
+### Note
+
+
+
+## Subdomain 1.1
 
 _Compare and contrast different types of social engineering techniques._
 
-#### Phishing
+### Phishing
 
