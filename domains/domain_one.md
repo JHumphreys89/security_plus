@@ -215,7 +215,7 @@ _Principles of Social Engineering and their reasons for effectiveness._
 
 _Given a scenario, analyze potential indicators to determine the type of attack._
 
-### 
+***
 
 # Study Cards
 
