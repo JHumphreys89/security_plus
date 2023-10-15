@@ -8,6 +8,7 @@ layout: default
 
 _Percentage of Examination_: 24%
 
+***
 
 ### Subdomains
 
@@ -214,6 +215,83 @@ _Principles of Social Engineering and their reasons for effectiveness._
 ## Subdomain 1.2
 
 _Given a scenario, analyze potential indicators to determine the type of attack._
+
+### Malware
+_Malicious software. Can include viruses and worms, gather information, or show you monetized advertising._
+
+#### Ransomware
+
+#### Trojans
+
+#### Worms
+
+#### Potentially unwanted Programs (PUPs)
+
+#### Fileless virus
+
+#### Command and control
+
+#### Bots
+
+#### Cryptomalware
+
+#### Logic bombs
+
+#### Spyware
+
+#### Keyloggers
+
+#### Remote Access Trojan (RAT)
+
+#### Rootkit
+
+#### Backdoor
+
+### Password attacks
+
+#### Spraying
+
+#### Dictionary
+
+#### Brute force
+
+#### Rainbow table
+
+#### Plaintext/unencrypted
+
+### Physical attacks
+
+#### Malicious Universal Serial Bus (USB) cable
+
+#### Malicious flash drive
+
+#### Card cloning
+
+#### Skimming
+
+### Adversarial artificial intelligence (AI)
+
+#### Tainted training data for machine learning (ML)
+
+#### Security of machine learning algorithms
+
+### Supply-chain attacks
+
+### Cloud-based vs. on-premises attacks
+
+### Cryptographic attacks
+
+#### Birthday
+
+#### Collision
+
+#### Downgrade
+
+***
+
+## Subdomain 1.3
+
+_Given a scenario, analyze potential indicators associated with application attacks._
 
 ***
 
