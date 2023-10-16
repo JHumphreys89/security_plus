@@ -350,17 +350,46 @@ _Malicious ways hackers attempt to gain access to an account. A common attack ve
 
 ##### Plaintext/unencrypted
 
-* 
+* A rare scenario when a threat actor is able to locate passwords stored "in the clear" - no encryption.
+* If an application is seen storing passwords as plaintext - get rid of this application!
+
+##### Salt*
+
+* Random data added to a password during the hashing process.
+* Salt is added to each password hash when stored and the salt is commonly stored with the password.
+* Rainbow tables generally don't work with salted hashes and can also slow down the brute force process.
+* Even if multiple users are using the same password, the salt and hash are completely different.
 
 #### Physical attacks
 
+_A type of security attack that involves the use of physical devices to gain authorized access to a system or network. Can be in many forms, including malicious USB cables, flash drives, skimming, and card cloning._
+
 ##### Malicious Universal Serial Bus (USB) cable
+
+* Physical attack where a seemingly harmless USB cable has additional electronics inside to pose as a keyboard/mouse or other Human Interface Device (HID)
+* Once connected, the cable takes over and installs malicious software.
+* Can be prevented by only using trusted hardware.
 
 ##### Malicious flash drive
 
+* Physical attack where a flash drive is loaded with malicious files (MS Office docs, PDF files) and documents or acts as a HID (Human Interface Device) or another device such as an Ethernet adapter in order to hijack information.
+* Older operating systems would just run the drive automatically - this is no longer the case.
+* Can be prevented by only using trusted flash drives.
+
 ##### Card cloning
 
+* Physical attack where card details are compromised and placed on a duplicate card, often included with the printed CVC (Card Validation Code).
+* The card magnetic stripe is duplicated but the chip cannot be cloned.
+* Card details are generalling cloned by a skimmer.
+* Cloning gift cards are common as they use magnetic stripe technology.
+
 ##### Skimming
+
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/f2c1e41b-dae6-4912-a3d8-a6c69d5ec736" width="250" height="auto">
+
+* Physical attack where a device is installed over hardware that reads credit or debit cards and captures the information from the cards magnetic swipe - card number, expiration date, card holder's name.
+* May also be used in conjunction with a camera to record PIN information.
+* Always physically check before using card readers or ATM terminals.
 
 #### Adversarial artificial intelligence (AI)
 
