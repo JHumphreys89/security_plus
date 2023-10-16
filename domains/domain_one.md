@@ -55,6 +55,8 @@ _Compare and contrast different types of social engineering techniques._
 
 #### Spam
 
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/0f3713e1-1d52-4ddd-af5f-523d0cccad0f" width="250" height="auto">
+
 * A form of unsolicited messages in the form of email, forums, etc. with various content including commercial advertising, non-commercial proselytizing, and phishing attempts.
 
 #### Spam over instant messaging (SPIM)
@@ -372,15 +374,15 @@ _Malicious ways hackers attempt to gain access to an account. A common attack ve
 * Has a remarkable speed increase, especiailly with longer password lengths.
 
 _Example of a rainbow table using MD5 hash._
-  | hash_hash | hash_id | hash_word |
-  |:----------|:--------|:----------|
-  | 0cc175b9c0f1b6a831c399e269772661 | 1 | a |
-  | 92eb5ffee6ae2fec3ad71c777531578f | 2 | b |
-  | 4a8a08f09d37b73795649038408b5f33 | 3 | c |
-  | ... | ... | ... |
-  | 02129bb861061d1a052c592e2dc6b383 | 50 | X |
-  | 57cec4137b614c87cb4e24a3d003a3e0 | 51 | Y |
-  | 21c2e59531c8710156d34a3c30ac81d5 | 52 | Z |
+  | hash_hash                        | hash_id | hash_word |
+  |:---------------------------------|:--------|:----------|
+  | 0cc175b9c0f1b6a831c399e269772661 | 1       | a         |
+  | 92eb5ffee6ae2fec3ad71c777531578f | 2       | b         |
+  | 4a8a08f09d37b73795649038408b5f33 | 3       | c         |
+  | ...                              | ...     | ...       |
+  | 02129bb861061d1a052c592e2dc6b383 | 50      | X         |
+  | 57cec4137b614c87cb4e24a3d003a3e0 | 51      | Y         |
+  | 21c2e59531c8710156d34a3c30ac81d5 | 52      | Z         |
   
 
 ##### Plaintext/unencrypted
