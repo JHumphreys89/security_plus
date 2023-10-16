@@ -217,19 +217,51 @@ _Principles of Social Engineering and their reasons for effectiveness._
 _Given a scenario, analyze potential indicators to determine the type of attack._
 
 #### Malware
-_Malicious software. Can include viruses and worms, gather information, or show you monetized advertising._
+_Malicious software. Intended to damage or disable computers and computer systems._
 
 ##### Ransomware
 
+* Type of malware that is designed to block access to a computer system until a sum of money is paid.
+* Can spread through phishing email or unknowingly/knowingly infected website.
+* May or may not be able to be removed by a security professional without paying the sum of money to the attacker.
+* Protect against this threat by keeping backups of your computer, keeping your OS and software patched and up-to-date, and keeping anti-malware signatures up to date.
+
 ##### Trojans
+
+* A type of malware that pretends to be a useful program while secretly performing another function.
+* Users may download and install what they believe to be legitimate software without realizing that a Trojan horse will also be installed.
+* Circumvents existing security - some may even be built to disable anti-virus software.
+* To protect against this threat, don't run unknown software, keep anti-malware signatures up-to-date, and keep backups!
 
 ##### Worms
 
+* A self-replicating program or algorithm that consumes system resources and can spread through networks, emails, and messages.
+* This form of malware can take over many systems quickly.
+* Firewalls and IDS/IPOS can mitigate infestations but can't help much once the worm is on the inside.
+
+1. Infected computer searches for a vulnerable system.
+2. Vulnerable computer is exploited.
+3. Backdoor is installed and downloads worm.
+
 ##### Potentially unwanted Programs (PUPs)
+
+* A form of software that is often unsuspectingly installed with other software and is normally undesirable.
+* Examples of this would be an overly agressive browser toolbar, a backup utility that displays ads, or a browser earch engine hijacker.
 
 ##### Fileless virus
 
+* A virus that does not save as a file ont he computer directly; instead, it operates in memory and is never installed.
+
+Example:
+1. User clicks on malicious website link.
+2. Website exploits a flash/Java/Windows vulnerability.
+3. Launches PowerShell and downloads payload in RAM.
+4. Runs scripts and executables in memory, exfiltrates data, damages files.
+5. Adds an auto-start to registry.
+
 ##### Command and control
+
+* Botnets are controlled using this software to send instructions to some or all of the bots in a botnet simultaneously.
 
 ##### Bots
 
