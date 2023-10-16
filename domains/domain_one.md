@@ -29,11 +29,11 @@ _Note:_ Terms below marked with an asterisk (*) may not be explicitly included i
 
 ## Subdomain 1.1
 
-<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/043b34ed-662b-45a2-8509-96599f955597" width="250" height="auto">
-
 _Compare and contrast different types of social engineering techniques._
 
 **The act of gathering info on an attack by taking advantage of the weakest part of security: _people_.**
+
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/043b34ed-662b-45a2-8509-96599f955597" width="250" height="auto">
 
 #### Phishing
 
@@ -67,11 +67,15 @@ _Compare and contrast different types of social engineering techniques._
 
 #### Dumpster diving
 
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/a8603975-d235-4c77-990f-49af36e90909" width="250" height="auto">
+
 * Searching the garbage collection area or dustbin to look for non-shredded confidential documents
 * Timing can be important - End of month, end of quarter. Based on pickup schedule.
 * Protect trash - locks on dumpsters, shred confidential documents. Governments burn documents.
 
 #### Shoulder surfing
+
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/573f5ac8-6cbf-4d03-a21c-98111429edde" width="250" height="auto">
 
 * This is a social engineering attack in which the attackers obtain confidential information by looking over someone's shoulder to read what is on their computer screen or phone or to observe what they are typing.
 * Can be in public areas such as airports and coffee shops.
@@ -85,6 +89,8 @@ _Compare and contrast different types of social engineering techniques._
 * Can use poisoned DNS server or client vulnerabilities.
 
 #### Tailgating
+
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/74c34cac-7349-4f53-81e2-65a09553c2da" width="250" height="auto">
 
 * Gaining unauthorized access to restricted areas by following another person.
 * Most security stops at the border so once inside, there is generally not much to stop the perpetrator.
@@ -116,6 +122,8 @@ _Compare and contrast different types of social engineering techniques._
 * Always verify before giving away information to another individual or oragnization. Don't give out passwords or disclose personal details.
 
 #### Invoice scams
+
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/cc48c948-0d8b-43ad-af83-4c74ed78fd3b" width="250" height="auto">
 
 * When an attacker sends a fake invoice to a business for something such as a domain renewal, toner cartridges, etc., and states the invoice is from the CEO. The business may pay the invoice since it looks like it is coming from a legitimate source.
 * Invoice looks like a legitimate one requesting printing services, lawn work, etc.
@@ -164,6 +172,9 @@ _Compare and contrast different types of social engineering techniques._
 
 #### Influence Campaigns
 _Usually nation-state actors that divide, distract, persuade and sway public opinion on policial and social issues._
+
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/4ac69754-2f73-4c76-93e4-80e6cde15a0a" width="250" height="auto">
+
 
 ##### Hybrid Warfare
 
@@ -220,6 +231,8 @@ _Principles of Social Engineering and their reasons for effectiveness._
 
 _Given a scenario, analyze potential indicators to determine the type of attack._
 
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/58661a85-a298-496b-917d-162071021c9d" width="250" height="auto">
+
 #### Malware
 _Malicious software. Intended to damage or disable computers and computer systems._
 
@@ -231,6 +244,8 @@ _Malicious software. Intended to damage or disable computers and computer system
 * Protect against this threat by keeping backups of your computer, keeping your OS and software patched and up-to-date, and keeping anti-malware signatures up to date.
 
 ##### Trojans
+
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/e204e3fc-effd-4d61-9888-0a14c8e11dc5" width="250" height="auto">
 
 * A type of malware that pretends to be a useful program while secretly performing another function.
 * Users may download and install what they believe to be legitimate software without realizing that a Trojan horse will also be installed.
@@ -253,6 +268,8 @@ _Malicious software. Intended to damage or disable computers and computer system
 * Examples of this would be an overly agressive browser toolbar, a backup utility that displays ads, or a browser earch engine hijacker.
 
 ##### Fileless virus
+
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/aae6a596-179a-4b81-a76d-b91ff9f3a14e" width="250" height="auto">
 
 * A virus that does not save as a file ont he computer directly; instead, it operates in memory and is never installed.
 
@@ -277,13 +294,15 @@ Example:
 
 ##### Botnet*
 
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/db1545f2-cdc5-435b-84bb-bac2398ef28d" width="250" height="auto">
+
 * A botnet, short for robot network, is a group of compromised computers or mobile devices connected to a network and managed using a C&C server.
 * As they infect newer technologies such as Internet of Things (IoT) devices in homes, public spaces, and secure areas, even more unsuspecting users can be put at risk. This is due to the lack of security on these open-source and generally unprotected devices.
 * Compromised devices within a botnet can be controlled to perform a variety of actions, not limited to Distributed Denial of Service (DDoS) attacks, relay spam, proxy network traffic, and other distributed computing tasks.
 
 ##### Cryptomalware
 
-* A newer generation of ransomwar
+* A newer generation of ransomware.
 * Where malware encrypts your data files (pictures, documents, movies, music, etc.) Your OS remains available as they want you running, but not working.
 * Pay a ransom and your data will be returned.
 
@@ -304,6 +323,8 @@ Example:
 * Keylogger applications may also capture other input like mouse movement, touchscreen inputs, or credit card swipes from attached devices.
 
 ##### Remote Access Trojan (RAT)
+
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/02570e36-da89-4388-8795-7c651c0bbed9" width="250" height="auto"><br>
 
 * Provides the attacker with remote control of a victim computer and is the most commonly used type of Trojan.
 * A remote administration tool; the ultimate backdoor.
@@ -385,6 +406,8 @@ _A type of security attack that involves the use of physical devices to gain aut
 
 ##### Malicious flash drive
 
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/d6532ee6-cd4a-4f79-83b0-13c9790dbe0c" width="250" height="auto">
+
 * Physical attack where a flash drive is loaded with malicious files (MS Office docs, PDF files) and documents or acts as a HID (Human Interface Device) or another device such as an Ethernet adapter in order to hijack information.
 * Older operating systems would just run the drive automatically - this is no longer the case.
 * Can be prevented by only using trusted flash drives.
@@ -427,6 +450,8 @@ _A type of security attack that involves the use of physical devices to gain aut
 ## Subdomain 1.3
 
 _Given a scenario, analyze potential indicators associated with application attacks._
+
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/3172a855-ee3f-46b5-b63d-7e02f536698b" width="250" height="auto">
 
 ***
 
