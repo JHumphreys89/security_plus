@@ -29,6 +29,8 @@ _Note:_ Terms below marked with an asterisk (*) may not be explicitly included i
 
 ## Subdomain 1.1
 
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/043b34ed-662b-45a2-8509-96599f955597" width="250" height="auto">
+
 _Compare and contrast different types of social engineering techniques._
 
 **The act of gathering info on an attack by taking advantage of the weakest part of security: _people_.**
@@ -348,17 +350,28 @@ _Malicious ways hackers attempt to gain access to an account. A common attack ve
 * An optimized, pre-built set of hashes that saves time and storage space and contains pre-calculated hash chains.
 * Has a remarkable speed increase, especiailly with longer password lengths.
 
+_Example of a rainbow table using MD5 hash._
+  | hash_hash | hash_id | hash_word |
+  |:----------|:--------|:----------|
+  | 0cc175b9c0f1b6a831c399e269772661 | 1 | a |
+  | 92eb5ffee6ae2fec3ad71c777531578f | 2 | b |
+  | 4a8a08f09d37b73795649038408b5f33 | 3 | c |
+  | ... | ... | ... |
+  | 02129bb861061d1a052c592e2dc6b383 | 50 | X |
+  | 57cec4137b614c87cb4e24a3d003a3e0 | 51 | Y |
+  | 21c2e59531c8710156d34a3c30ac81d5 | 52 | Z |
+  
+
 ##### Plaintext/unencrypted
 
 * A rare scenario when a threat actor is able to locate passwords stored "in the clear" - no encryption.
 * If an application is seen storing passwords as plaintext - get rid of this application!
 
-##### Salt*
+##### _Note: Regarding Hash and Salt_
 
-* Random data added to a password during the hashing process.
-* Salt is added to each password hash when stored and the salt is commonly stored with the password.
-* Rainbow tables generally don't work with salted hashes and can also slow down the brute force process.
-* Even if multiple users are using the same password, the salt and hash are completely different.
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/f6aec42c-fcf0-4d11-9f24-4dde2144a630" width="250" height="auto">
+
+See [subdomain 2.8](https://jhumphreys.github.io/security_plus/domains/domain_two.html)
 
 #### Physical attacks
 
@@ -385,7 +398,7 @@ _A type of security attack that involves the use of physical devices to gain aut
 
 ##### Skimming
 
-<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/f2c1e41b-dae6-4912-a3d8-a6c69d5ec736" width="250" height="auto">
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/6a2104b9-7aa0-4333-9c40-4b8e2e2d6d3c" width="250" height="auto">
 
 * Physical attack where a device is installed over hardware that reads credit or debit cards and captures the information from the cards magnetic swipe - card number, expiration date, card holder's name.
 * May also be used in conjunction with a camera to record PIN information.
