@@ -23,6 +23,8 @@ _Percentage of Examination_: 24%
 | 1.7       | Summarize the techniques used in security assessments.                              |
 | 1.8       | Explain the technigues used in penetration testing.                                 |
 
+_Note:_ Terms below marked with an asterisk (*) may not be explicitly included in the SY0-601 exam objectives, but are still important and relative to the course material.
+
 ***
 
 ## Subdomain 1.1
@@ -261,35 +263,94 @@ Example:
 
 ##### Command and control
 
-* Botnets are controlled using this software to send instructions to some or all of the bots in a botnet simultaneously.
+* A server or computer controlled by an attacker or cybercriminal which is used to send commands to systems compromised by malware and receive stolen data from a target network.
+* Many campaigns have been found using cloud-based services, such as webmail and file-sharing service - allows C&C servers to blend in with normal traffic and avoid detection.
+* Also serve as the headquarters for compromised machines in a botnet.
 
 ##### Bots
 
+* A bot, short for robot, is a type of software application or script that performs automated tasks on command.
+* Bots generally perform malicious tasks that allow an attacker to remotely take control over an affected computer.
+* Are generally part of a larger entity called a botnet and controlled through a Command and Control server or C&C.
+
+##### Botnet*
+
+* A botnet, short for robot network, is a group of compromised computers or mobile devices connected to a network and managed using a C&C server.
+* As they infect newer technologies such as Internet of Things (IoT) devices in homes, public spaces, and secure areas, even more unsuspecting users can be put at risk. This is due to the lack of security on these open-source and generally unprotected devices.
+* Compromised devices within a botnet can be controlled to perform a variety of actions, not limited to Distributed Denial of Service (DDoS) attacks, relay spam, proxy network traffic, and other distributed computing tasks.
+
 ##### Cryptomalware
+
+* A newer generation of ransomwar
+* Where malware encrypts your data files (pictures, documents, movies, music, etc.) Your OS remains available as they want you running, but not working.
+* Pay a ransom and your data will be returned.
 
 ##### Logic bombs
 
+* Malicious code objects that infect a system and lie dormant until they are triggered by the occurrence of one or more conditions such as time, program launch, website logon, and so on.
+* Difficult to identify and difficult to recover if it goes off.
+
 ##### Spyware
+
+* A software application that is secretly placed on a user's system to gather informatin and relay it to outside parties (host machine).
+* They are generally difficult to recognize as each is unique and does not have a predefined signature.
+* Can be prevented through process and procedures, electronic monitoring such as host-based intrusion detection, and constant monitoring from administrators.
 
 ##### Keyloggers
 
+* Malware that capture keystrokes from keyboards.
+* Keylogger applications may also capture other input like mouse movement, touchscreen inputs, or credit card swipes from attached devices.
+
 ##### Remote Access Trojan (RAT)
+
+* Provides the attacker with remote control of a victim computer and is the most commonly used type of Trojan.
+* A remote administration tool; the ultimate backdoor.
+* Attacker connects with client software and and then controls the device for keylogging, screen recording or collecting screenshots, copy files, or embed even more malware.
+* Don't install unknown software, keep anti-malware signatures updated, and always backup!
 
 ##### Rootkit
 
+* A set of software tools that enable an unauthorized user to gain control of a computer without being detected.
+* Modifies the core system files; invisible to the OS and traditional anti-virus utilities.
+* Make sure to look for the unusual and perform anti-malware scans. Use a remover specific to the rootkit which are normally built after the rootkit is discovered. Secure boot with UEFI which is additional security embeded in the BIOS.
+
 ##### Backdoor
+
+* Gives access to a computer, program, or service that circumvents normal security to give program access.
+* Often placed on a computer through malware.
+* Some software include a backdoor; bad software can have a backdoor as part of the app.
 
 #### Password attacks
 
+_Malicious ways hackers attempt to gain access to an account. A common attack vector used to bypass or exploit authentication of user accounts. Include several different techniques._
+
 ##### Spraying
+
+* Attack an account with the top three (or more) common passwords - if they don't work, move on to the next account.
+* No lockouts, no alarms, no alerts.
 
 ##### Dictionary
 
+* An attack that compares passwords against common words in a dictionary of words - usually from wordlists that can be found on the internet.
+* They can take quite a bit of time but can go on to find the hashes associated with the cracked passwords using this attack.
+* Password crackers can substitute letters for numbers or symbols (i.e. pa$$w0rd.)
+
 ##### Brute force
+
+* This type of attack sees the threat actor try every possible password combination until a hash is matched.
+* This might take some time - a strong hashing algorithm can slow things down.
+* Online: keep trying the login process; very slow as most accounts will lockout after a number of failed attempts.
+* Offline: Obtain a list of users and hashes; calculate a password hash, compare to a stored hash. Large computational resource requirement.
 
 ##### Rainbow table
 
+* Lists of common passwords and the value they hash to.
+* An optimized, pre-built set of hashes that saves time and storage space and contains pre-calculated hash chains.
+* Has a remarkable speed increase, especiailly with longer password lengths.
+
 ##### Plaintext/unencrypted
+
+* 
 
 #### Physical attacks
 
