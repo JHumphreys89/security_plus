@@ -367,12 +367,16 @@ _Malicious ways hackers attempt to gain access to an account. A common attack ve
 
 * Attack an account with the top three (or more) common passwords - if they don't work, move on to the next account.
 * No lockouts, no alarms, no alerts.
+* Can be found commonly where the application or admin sets a defaut password for new users.
 
 ##### Dictionary
 
 * An attack that compares passwords against common words in a dictionary of words - usually from wordlists that can be found on the internet.
 * They can take quite a bit of time but can go on to find the hashes associated with the cracked passwords using this attack.
 * Password crackers can substitute letters for numbers or symbols (i.e. pa$$w0rd.)
+* Example software: [Cain and Abel](https://en.wikipedia.org/wiki/Cain_and_Abel_(software))
+
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/84a41f09-3a6f-4a59-ae48-87444151c03e" width="600" height="auto">
 
 ##### Brute force
 
@@ -485,17 +489,19 @@ _You now have encrypted the data and sent it to another person - is it secure? T
 <img src="https://github.com/JHumphreys89/security_plus/assets/115595085/df441d29-269c-481b-9b28-3002f88c8271" width="250" height="auto">
 
 * This attack will generate multiple versions of plaintext to match the hashes and find collision through bruteforce.
+* Exploits the mathematics behind the [birthday problem in probability theory](https://en.wikipedia.org/wiki/Birthday_attack). This problem asks for the probability that, in a set of _n_ randomly chosen people, at least two will share a birthday.
 * You can help protect yourself by using a large hash output size. 🧂
 
 ##### Collision
 
 * Hash digests are _supposed_ to be unique, and different input data should never create the same hash.
 * However, with previous hashing algorithms there is a cryptographic attack that exploits collisions in these hashes.
-* Example: MD5 hash.
+* Example: [SHAttered attack](https://debugpointer.com/security/collision-attack#:~:text=Perhaps%20one%20of%20the%20most%20well-known%20examples%20of,expedited%20the%20move%20towards%20more%20secure%20hash%20functions.). Researchers were able to find a collision in the SHA-1 hash function. This quickly led to an expedited move towards more secure hash functions.
 
 ##### Downgrade
 
 * An attack that forces a system to rollback it's security in order to carry out an exploit.
+* An [example of this flaw was](https://en.wikipedia.org/wiki/Downgrade_attack) found in OpenSSL that allowed the attacker to negotiate down to a lower version of TLS between the client and server. This is the is on of the most common types of downgrade attacks.
 
 ***
 
@@ -509,7 +515,7 @@ _Given a scenario, analyze potential indicators associated with application atta
 
 * Gaining access to files you should not have permission to on a valid account via exploition of a vulnerability.
 * Usually access is of highest level and is of great concern.
-* Can include horizontal privilege escalation where one user can access another user's resources.
+* Can include horizontal privilege escalation where an attacker gets access to another credential on the network with higher privileges than the initial one used to gain their foothold.
 * Make sure to patch software and OS as well as ensure anti-malware signatures are up to date. Also practice Data execution prevention.
 
 #### Cross-site scripting (XSS)
@@ -518,7 +524,16 @@ _Given a scenario, analyze potential indicators associated with application atta
 
 * XSS is an injection vulnerability that occurs when an attacker can insert unauthorized JavaScript, VBScript, HTML, or other active content into a webpage.
 * When other users view the page, the malicious code executes and affects or attacks the user.
-* Examples: malicious script can hijack the user's session, submit unauthorized transactions on the user's behalf, steal confidential information, or deface the page.
+* Malicious script can hijack the user's session, submit unauthorized transactions on the user's behalf, steal confidential information, or deface the page.
+* Example:
+  1. https://fakewebsite.com/status?message=All+is+well.
+  2. Application receives data in an HTTP request that includes data within the immediate response in an unsafe way. Response contains the following HTML code:
+     
+     ```html
+     <p>Status: All is well.</p>
+     ```
+     
+  3. An attack can craft a URL that includes malicious JavaScript code in the message parameter, which will be executed by the victim's broswer when they visit the URL
 
 #### Injections
 
@@ -528,15 +543,109 @@ _A process where an attacker supplies untrusted input to a program, which gets p
 
 ##### Structured query language (SQL)
 
-* 
+* Web security vulerability that allows an attacker to interfere with the queries that an application makes to its database.
+* Attacker injects malicious SQL code into the applications input fields, which can then be executed by the database.
+* Can lead to unauthorized access to sensitive data, data loss, or even complete system compromise.
+* Example:
+  1. Suppose a web app uses an SQL database to store user info. The application has a login page that accepts a username and password. SQL query to authenticate the user might look like this:
+     
+     ```sql
+     SELECT * FROM users WHERE username = 'username' AND password = 'password'
+     ```
+     
+  2. An attacker can exploit this by entering the following string as the username:
+     
+     ```sql
+     ' OR 1=1 --
+     ```
+  3. This will modify the SQL query to look like this:
 
+     ```sql
+     SELECT * FROM users WHERE username = ' ' OR 1=1 --' AND password = 'password'
+     ```
+     
+  4. The `--` at the end of the string is used to comment out the rest of the original query. The modified query will return all rows from the `users` table, effectively bypassing authentication.
+  
 ##### Dynamic-link library (DLL)
 
+* A techique used for running code withi the address space of another process by forcing it to load a dynamic-link library.
+* DLL injection is often used by external programs to influence the behavior of another program in a way it's authors did not anticipate or intend.
+* Example of a simple injection in C++:
 
+  ```c++
+  #include <windows.h>
+  #include <stdio.h>
+
+  int main(int argc, char **argv) {
+    if (argc != 3) {
+        printf("Usage: %s <PID> <DLL_PATH>\n", argv[0]);
+        return 1; }
+
+    DWORD pid = atoi(argv[1]);
+    HANDLE hProcess = OpenProcess(PROCESS_ALL_ACCESS, FALSE, pid);
+    if (!hProcess) {
+        printf("Failed to open process %d\n", pid);
+        return 1;
+    }
+
+    LPVOID lpRemoteString = VirtualAllocEx(hProcess, NULL, strlen(argv[2]) + 1, MEM_COMMIT, PAGE_READWRITE);
+    if (!lpRemoteString) {
+        printf("Failed to allocate memory in remote process\n");
+        return 1;
+    }
+
+    if (!WriteProcessMemory(hProcess, lpRemoteString, argv[2], strlen(argv[2]) + 1, NULL)) {
+        printf("Failed to write memory in remote process\n");
+        return 1;
+    }
+
+    HMODULE hKernel32 = GetModuleHandle("kernel32.dll");
+    FARPROC pLoadLibraryA = GetProcAddress(hKernel32, "LoadLibraryA");
+
+    HANDLE hThread = CreateRemoteThread(hProcess, NULL, 0,
+                                         (LPTHREAD_START_ROUTINE)pLoadLibraryA,
+                                         lpRemoteString,
+                                         0,
+                                         NULL);
+    if (!hThread) {
+        printf("Failed to create remote thread\n");
+        return 1;
+    }
+
+    WaitForSingleObject(hThread, INFINITE);
+
+    VirtualFreeEx(hProcess, lpRemoteString, strlen(argv[2]) + 1, MEM_RELEASE);
+    CloseHandle(hThread);
+    CloseHandle(hProcess);
+
+    return 0; }
+  ```
 
 ##### Lightweight Directory Access Protocol (LDAP)
 
+* A technique used to exploit web applications which could reveal senstive information or modify information represented in the LDAP data stores.
+* It exploits a vulnerability in an application by manipulating input parameters passed to internal search, add or modify functions.
+* When an application fails to properly sanitize user input, it is possible for an attacker to modify a statement.
+* Example:
+  1. Suppose an application uses the fllowing LDAP query to authenticate a user:
 
+  ```ldap
+  (&(uid=admin)(userPassword=pass))
+  ```
+
+  2. An attacker could inject malicious code into the query by entering the following string as the username:
+ 
+  ```ldap
+  *)(uid=*))(|(uid=*
+  ```
+
+  3. This would result in the folowing LDAP query:
+ 
+  ```ldap
+  (&(uid=*)(uid=*))(|(uid=*)(userPassword=pass))
+  ```
+
+  4. An attacker could then use this query to bypass authentication and gain access to sensitive data.
 
 ##### Extensible Markup Language (XML)
 
