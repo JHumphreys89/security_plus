@@ -464,6 +464,8 @@ _A type of security attack that involves the use of physical devices to gain aut
 
 #### Supply-chain attacks
 
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/3ed4e5e4-91d8-46a0-8b27-11379c25bdb5" width="250" height="auto">
+
 * Attacks that focus on weaker links in an organization's supply chain.
 * An attacker will find an exploit to infect the entire chain through a third-party supplier.
 * People trust their suppliers...
