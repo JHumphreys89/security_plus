@@ -660,6 +660,8 @@ _A process where an attacker supplies untrusted input to a program, which gets p
 
 #### Pointer/object deference
 
+<img class="subdo-img" src="../assets/images/1.3/img4.png" width="250" height="auto">
+
 * A pointer is a variable that stores memory addresses of another variable.
 * A null pointer is a pointer that does not point to any memory location.
 * A dangling pointer that points to a memory location that has been freed or deleted.
