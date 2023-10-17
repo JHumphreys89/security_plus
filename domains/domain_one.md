@@ -514,7 +514,7 @@ _You now have encrypted the data and sent it to another person - is it secure? T
 
 _Given a scenario, analyze potential indicators associated with application attacks._
 
-<img class="subdo-img" src="https://github.com/JHumphreys89/security_plus/assets/115595085/3172a855-ee3f-46b5-b63d-7e02f536698b" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.3/img1.png" width="250" height="auto">
 
 #### Privilege escalation
 
@@ -525,7 +525,7 @@ _Given a scenario, analyze potential indicators associated with application atta
 
 #### Cross-site scripting (XSS)
 
-<img class="subdo-img" src="https://github.com/JHumphreys89/security_plus/assets/115595085/ce8cfb58-9f90-487c-9c52-3ee2f3d1f5a2" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.3/img2.png" width="250" height="auto">
 
 * XSS is an injection vulnerability that occurs when an attacker can insert unauthorized JavaScript, VBScript, HTML, or other active content into a webpage.
 * When other users view the page, the malicious code executes and affects or attacks the user.
@@ -544,7 +544,7 @@ _Given a scenario, analyze potential indicators associated with application atta
 
 _A process where an attacker supplies untrusted input to a program, which gets processed by an interpreter as part of a command or query._
 
-<img class="subdo-img" src="https://github.com/JHumphreys89/security_plus/assets/115595085/78d99c83-636c-475e-a845-b8dcc829ee84" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.3/img3.png" width="250" height="auto">
 
 ##### Structured query language (SQL)
 
