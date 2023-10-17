@@ -446,7 +446,10 @@ _A type of security attack that involves the use of physical devices to gain aut
 
 #### Adversarial artificial intelligence (AI)
 
-* 
+* Machine learing: Computers identify patterns in data which in turn further improve their predictions. This requires an ample and continuous quantity of training data. It's in use everyday in a variety of products including email (anti-spam), websites (recommend products), and prevent car accidents (automatic breaks, self-driving).
+* Poisoning of the training data: Confuse AI. Attackers can feed the AI mofidied training data to cause it to behave incorrectly.
+* Evasion attacks: AI only as good as training data and attackers will find holes and limitations. AI that may be trained to fight spam may have an attacker try words that the AI does not treat as bad and allow through.
+* Secure: Check and crosscheck training data. Constantly retrain the AI with new data, more data. Train the AI with the poisoned data - let the AI know what it is up against.
 
 ##### Tainted training data for machine learning (ML)
 
@@ -459,15 +462,36 @@ _A type of security attack that involves the use of physical devices to gain aut
 
 #### Supply-chain attacks
 
+* Attacks that focus on weaker links in an organization's supply chain.
+* An attacker will find an exploit to infect the entire chain through a third-party supplier.
+* People trust their suppliers...
+
 #### Cloud-based vs. on-premises attacks
+
+* Attackers want data no matter where it is.
+* When it comes to cloud-based security, it is centalized and can cost less as it requires no dedicated hardware or data center to secure - a third-party handles that.
+* With on-premises, the security burden is placed on the client and requires data center securty and infrastructure costs.
 
 #### Cryptographic attacks
 
+_You now have encrypted the data and sent it to another person - is it secure? These attacks focus on finding ways to undo security and locate cryptographic shortcomings._
+
 ##### Birthday
+
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/df441d29-269c-481b-9b28-3002f88c8271" width="250" height="auto">
+
+* This attack will generate multiple versions of plaintext to match the hashes and find collision through bruteforce.
+* You can help protect yourself by using a large hash output size. 🧂
 
 ##### Collision
 
+* Hash digests are _supposed_ to be unique, and different input data should never create the same hash.
+* However, with previous hashing algorithms there is a cryptographic attack that exploits collisions in these hashes.
+* Example: MD5 hash.
+
 ##### Downgrade
+
+* An attack that forces a system to rollback it's security in order to carry out an exploit.
 
 ***
 
