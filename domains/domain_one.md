@@ -172,6 +172,7 @@ _Compare and contrast different types of social engineering techniques._
 
 * A type of URL hijacking where there is a site with URLs that are slightly different from a legitimate source.
 * Example: https://microsoftt.com
+
 <img src="https://github.com/JHumphreys89/security_plus/assets/115595085/cb4d0ad0-771e-4ca9-afb5-2040ae42af70" width="250" height="auto">
 
 #### Pretexting
