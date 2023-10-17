@@ -386,6 +386,7 @@ _Malicious ways hackers attempt to gain access to an account. A common attack ve
 * Has a remarkable speed increase, especiailly with longer password lengths.
 
 _Example of a rainbow table using MD5 hash._
+
   | hash_hash                        | hash_id | hash_word |
   |:---------------------------------|:--------|:----------|
   | 0cc175b9c0f1b6a831c399e269772661 | 1       | a         |
