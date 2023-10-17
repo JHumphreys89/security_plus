@@ -113,6 +113,7 @@ _Compare and contrast different types of social engineering techniques._
 
 * An attacker adds a term or phrase to the header of an email to enhance its effectiveness as a social engineering attack.
 * Example: https://mmicrosoft.com.
+
 <img src="https://github.com/JHumphreys89/security_plus/assets/115595085/1b75a220-bf01-4db7-8634-c05b97a49a9b" width="250" height="auto">
 
 #### Identity fraud
