@@ -203,7 +203,7 @@ _Principles of Social Engineering and their reasons for effectiveness._
 ##### Authority
 
 * To impersonate or imply a positon of authority.
-* Attacker will impersonate someone from a police officer or Help Desk employee to try and spoof you into giving away information.
+* Attacker will impersonate someone such as a police officer or Help Desk employee to try and spoof you into giving away information.
 
 ##### Intimidation
 
@@ -504,6 +504,133 @@ _You now have encrypted the data and sent it to another person - is it secure? T
 _Given a scenario, analyze potential indicators associated with application attacks._
 
 <img src="https://github.com/JHumphreys89/security_plus/assets/115595085/3172a855-ee3f-46b5-b63d-7e02f536698b" width="250" height="auto">
+
+#### Privilege escalation
+
+* Gaining access to files you should not have permission to on a valid account via exploition of a vulnerability.
+* Usually access is of highest level and is of great concern.
+* Can include horizontal privilege escalation where one user can access another user's resources.
+* Make sure to patch software and OS as well as ensure anti-malware signatures are up to date. Also practice Data execution prevention.
+
+#### Cross-site scripting (XSS)
+
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/ce8cfb58-9f90-487c-9c52-3ee2f3d1f5a2" width="250" height="auto">
+
+* XSS is an injection vulnerability that occurs when an attacker can insert unauthorized JavaScript, VBScript, HTML, or other active content into a webpage.
+* When other users view the page, the malicious code executes and affects or attacks the user.
+* Examples: malicious script can hijack the user's session, submit unauthorized transactions on the user's behalf, steal confidential information, or deface the page.
+
+#### Injections
+
+_A process where an attacker supplies untrusted input to a program, which gets processed by an interpreter as part of a command or query._
+
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/78d99c83-636c-475e-a845-b8dcc829ee84" width="250" height="auto">
+
+##### Structured query language (SQL)
+
+* 
+
+##### Dynamic-link library (DLL)
+
+
+
+##### Lightweight Directory Access Protocol (LDAP)
+
+
+
+##### Extensible Markup Language (XML)
+
+
+
+#### Pointer/object deference
+
+
+
+#### Directory traversal
+
+
+
+#### Buffer overflows
+
+
+
+#### Race conditions
+
+
+
+##### Time of check/time of use
+
+
+
+#### Error handling
+
+
+
+#### Improper input handling
+
+
+
+#### Replay attack
+
+
+
+##### Session replays
+
+
+
+#### Integer overflow
+
+
+
+#### Request forgeries
+
+
+
+##### Server-side
+
+
+
+##### Cross-site
+
+
+
+#### Application programming interface (API) attacks
+
+
+
+##### Resource exhaustion
+
+
+
+#### Memory leak
+
+
+
+#### Secure Socks Layer (SSL) stripping
+
+
+
+#### Driver manipulation
+
+
+
+##### Shimming
+
+
+
+##### Refactoring
+
+
+
+#### Pass the hash
+
+***
+
+## Subdomain 1.4
+
+_Given a scenario, analyze potential indicators associated with network attacks_
+
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/add4d9a2-9e4d-4816-b017-c32774f780ad" width="250" height="auto">
 
 ***
 
