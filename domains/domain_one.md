@@ -36,7 +36,7 @@ _Compare and contrast different types of social engineering techniques._
 
 **The act of gathering info on an attack by taking advantage of the weakest part of security: _people_.**
 
-<img src="../assets/images/1.1/img1.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img1.png" width="250" height="auto">
 
 #### Phishing
 
@@ -58,7 +58,7 @@ _Compare and contrast different types of social engineering techniques._
 
 #### Spam
 
-<img src="../assets/images/1.1/img2.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img2.png" width="250" height="auto">
 
 * A form of unsolicited messages in the form of email, forums, etc. with various content including commercial advertising, non-commercial proselytizing, and phishing attempts.
 
@@ -72,7 +72,7 @@ _Compare and contrast different types of social engineering techniques._
 
 #### Dumpster diving
 
-<img src="../assets/images/1.1/img3.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img3.png" width="250" height="auto">
 
 * Searching the garbage collection area or dustbin to look for non-shredded confidential documents
 * Timing can be important - End of month, end of quarter. Based on pickup schedule.
@@ -80,7 +80,7 @@ _Compare and contrast different types of social engineering techniques._
 
 #### Shoulder surfing
 
-<img src="../assets/images/1.1/img4.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img4.png" width="250" height="auto">
 
 * This is a social engineering attack in which the attackers obtain confidential information by looking over someone's shoulder to read what is on their computer screen or phone or to observe what they are typing.
 * Can be in public areas such as airports and coffee shops.
@@ -95,7 +95,7 @@ _Compare and contrast different types of social engineering techniques._
 
 #### Tailgating
 
-<img src="../assets/images/1.1/img5.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img5.png" width="250" height="auto">
 
 * Gaining unauthorized access to restricted areas by following another person.
 * Most security stops at the border so once inside, there is generally not much to stop the perpetrator.
@@ -117,7 +117,7 @@ _Compare and contrast different types of social engineering techniques._
 * An attacker adds a term or phrase to the header of an email to enhance its effectiveness as a social engineering attack.
 * Example: https://mmicrosoft.com.
 
-<img src="../assets/images/1.1/img6.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img6.png" width="250" height="auto">
 
 #### Identity fraud
 
@@ -130,7 +130,7 @@ _Compare and contrast different types of social engineering techniques._
 
 #### Invoice scams
 
-<img src="../assets/images/1.1/img7.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img7.png" width="250" height="auto">
 
 * When an attacker sends a fake invoice to a business for something such as a domain renewal, toner cartridges, etc., and states the invoice is from the CEO. The business may pay the invoice since it looks like it is coming from a legitimate source.
 * Invoice looks like a legitimate one requesting printing services, lawn work, etc.
@@ -144,7 +144,7 @@ _Compare and contrast different types of social engineering techniques._
 
 #### Reconnaissance
 
-<img src="../assets/images/1.1/img8.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img8.png" width="250" height="auto">
 
 * Gathering information on a victim. Gathers background information to build a believable pretext.
 
@@ -158,7 +158,7 @@ _Compare and contrast different types of social engineering techniques._
 
 #### Impersonation
 
-<img src="../assets/images/1.1/img9.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img9.png" width="250" height="auto">
 
 * An attacker who pretends to be someone else in the hopes of eliciting Personally Identifiable Information (PII).
 * May use details gathered from reconnaissance - they know your place of work, bank, etc.
@@ -176,7 +176,7 @@ _Compare and contrast different types of social engineering techniques._
 * A type of URL hijacking where there is a site with URLs that are slightly different from a legitimate source.
 * Example: https://microsoftt.com
 
-<img src="../assets/images/1.1/img10.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img10.png" width="250" height="auto">
 
 #### Pretexting
 
@@ -186,7 +186,7 @@ _Compare and contrast different types of social engineering techniques._
 #### Influence Campaigns
 _Usually nation-state actors that divide, distract, persuade and sway public opinion on policial and social issues._
 
-<img src="../assets/images/1.1/img11.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img11.png" width="250" height="auto">
 
 
 ##### Hybrid Warfare
@@ -201,7 +201,7 @@ _Usually nation-state actors that divide, distract, persuade and sway public opi
 #### Principles -reasons for effectiveness
 _Principles of Social Engineering and their reasons for effectiveness._
 
-<img src="../assets/images/1.1/img12.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img12.png" width="250" height="auto">
 
 ##### Authority
 
@@ -247,7 +247,7 @@ _Principles of Social Engineering and their reasons for effectiveness._
 
 _Given a scenario, analyze potential indicators to determine the type of attack._
 
-<img src="../assets/images/1.2/img1.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.2/img1.png" width="250" height="auto">
 
 #### Malware
 _Malicious software. Intended to damage or disable computers and computer systems._
@@ -261,7 +261,7 @@ _Malicious software. Intended to damage or disable computers and computer system
 
 ##### Trojans
 
-<img src="../assets/images/1.2/img2.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.2/img2.png" width="250" height="auto">
 
 * A type of malware that pretends to be a useful program while secretly performing another function.
 * Users may download and install what they believe to be legitimate software without realizing that a Trojan horse will also be installed.
@@ -285,7 +285,7 @@ _Malicious software. Intended to damage or disable computers and computer system
 
 ##### Fileless virus
 
-<img src="../assets/images/1.2/img3.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.2/img3.png" width="250" height="auto">
 
 * A virus that does not save as a file ont he computer directly; instead, it operates in memory and is never installed.
 
@@ -310,7 +310,7 @@ Example:
 
 ##### Botnet*
 
-<img src="../assets/images/1.2/img4.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.2/img4.png" width="250" height="auto">
 
 * A botnet, short for robot network, is a group of compromised computers or mobile devices connected to a network and managed using a C&C server.
 * As they infect newer technologies such as Internet of Things (IoT) devices in homes, public spaces, and secure areas, even more unsuspecting users can be put at risk. This is due to the lack of security on these open-source and generally unprotected devices.
@@ -324,7 +324,7 @@ Example:
 
 ##### Logic bombs
 
-<img src="../assets/images/1.2/img5.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.2/img5.png" width="250" height="auto">
 
 * Malicious code objects that infect a system and lie dormant until they are triggered by the occurrence of one or more conditions such as time, program launch, website logon, and so on.
 * Difficult to identify and difficult to recover if it goes off.
@@ -342,7 +342,7 @@ Example:
 
 ##### Remote Access Trojan (RAT)
 
-<img src="../assets/images/1.2/img6.png" width="250" height="auto"><br>
+<img class="subdo-img" src="../assets/images/1.2/img6.png" width="250" height="auto"><br>
 
 * Provides the attacker with remote control of a victim computer and is the most commonly used type of Trojan.
 * A remote administration tool; the ultimate backdoor.
@@ -365,7 +365,7 @@ Example:
 
 _Malicious ways hackers attempt to gain access to an account. A common attack vector used to bypass or exploit authentication of user accounts. Include several different techniques._
 
-<img src="../assets/images/1.2/img7.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.2/img7.png" width="250" height="auto">
 
 ##### Spraying
 
@@ -380,7 +380,7 @@ _Malicious ways hackers attempt to gain access to an account. A common attack ve
 * Password crackers can substitute letters for numbers or symbols (i.e. pa$$w0rd.)
 * Example software: [Cain and Abel](https://en.wikipedia.org/wiki/Cain_and_Abel_(software))
 
-<img src="../assets/images/1.2/img8.png" width="600" height="auto">
+<img class="subdo-img" src="../assets/images/1.2/img8.png" width="600" height="auto">
 
 ##### Brute force
 
@@ -415,7 +415,7 @@ _Example of a rainbow table using MD5 hash._
 
 ##### _Note: Regarding Hash and Salt_
 
-<img src="../assets/images/1.2/img9.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.2/img9.png" width="250" height="auto">
 
 See [subdomain 2.8](https://jhumphreys.github.io/security_plus/domains/domain_two.html#subdomain-28)
 
@@ -431,7 +431,7 @@ _A type of security attack that involves the use of physical devices to gain aut
 
 ##### Malicious flash drive
 
-<img src="../assets/images/1.2/img10.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.2/img10.png" width="250" height="auto">
 
 * Physical attack where a flash drive is loaded with malicious files (MS Office docs, PDF files) and documents or acts as a HID (Human Interface Device) or another device such as an Ethernet adapter in order to hijack information.
 * Older operating systems would just run the drive automatically - this is no longer the case.
@@ -446,7 +446,7 @@ _A type of security attack that involves the use of physical devices to gain aut
 
 ##### Skimming
 
-<img src="../assets/images/1.2/img11.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.2/img11.png" width="250" height="auto">
 
 * Physical attack where a device is installed over hardware that reads credit or debit cards and captures the information from the cards magnetic swipe - card number, expiration date, card holder's name.
 * May also be used in conjunction with a camera to record PIN information.
@@ -454,7 +454,7 @@ _A type of security attack that involves the use of physical devices to gain aut
 
 #### Adversarial artificial intelligence (AI)
 
-<img src="../assets/images/1.2/img12.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.2/img12.png" width="250" height="auto">
 
 * Machine learing: Computers identify patterns in data which in turn further improve their predictions. This requires an ample and continuous quantity of training data. It's in use everyday in a variety of products including email (anti-spam), websites (recommend products), and prevent car accidents (automatic breaks, self-driving).
 * Poisoning of the training data: Confuse AI. Attackers can feed the AI mofidied training data to cause it to behave incorrectly.
@@ -472,7 +472,7 @@ _A type of security attack that involves the use of physical devices to gain aut
 
 #### Supply-chain attacks
 
-<img src="../assets/images/1.2/img13.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.2/img13.png" width="250" height="auto">
 
 * Attacks that focus on weaker links in an organization's supply chain.
 * An attacker will find an exploit to infect the entire chain through a third-party supplier.
@@ -490,7 +490,7 @@ _You now have encrypted the data and sent it to another person - is it secure? T
 
 ##### Birthday
 
-<img src="../assets/images/1.2/img14.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.2/img14.png" width="250" height="auto">
 
 * This attack will generate multiple versions of plaintext to match the hashes and find collision through bruteforce.
 * Exploits the mathematics behind the [birthday problem in probability theory](https://en.wikipedia.org/wiki/Birthday_attack). This problem asks for the probability that, in a set of _n_ randomly chosen people, at least two will share a birthday.
@@ -514,7 +514,7 @@ _You now have encrypted the data and sent it to another person - is it secure? T
 
 _Given a scenario, analyze potential indicators associated with application attacks._
 
-<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/3172a855-ee3f-46b5-b63d-7e02f536698b" width="250" height="auto">
+<img class="subdo-img" src="https://github.com/JHumphreys89/security_plus/assets/115595085/3172a855-ee3f-46b5-b63d-7e02f536698b" width="250" height="auto">
 
 #### Privilege escalation
 
@@ -525,7 +525,7 @@ _Given a scenario, analyze potential indicators associated with application atta
 
 #### Cross-site scripting (XSS)
 
-<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/ce8cfb58-9f90-487c-9c52-3ee2f3d1f5a2" width="250" height="auto">
+<img class="subdo-img" src="https://github.com/JHumphreys89/security_plus/assets/115595085/ce8cfb58-9f90-487c-9c52-3ee2f3d1f5a2" width="250" height="auto">
 
 * XSS is an injection vulnerability that occurs when an attacker can insert unauthorized JavaScript, VBScript, HTML, or other active content into a webpage.
 * When other users view the page, the malicious code executes and affects or attacks the user.
@@ -544,7 +544,7 @@ _Given a scenario, analyze potential indicators associated with application atta
 
 _A process where an attacker supplies untrusted input to a program, which gets processed by an interpreter as part of a command or query._
 
-<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/78d99c83-636c-475e-a845-b8dcc829ee84" width="250" height="auto">
+<img class="subdo-img" src="https://github.com/JHumphreys89/security_plus/assets/115595085/78d99c83-636c-475e-a845-b8dcc829ee84" width="250" height="auto">
 
 ##### Structured query language (SQL)
 
@@ -745,7 +745,7 @@ _A process where an attacker supplies untrusted input to a program, which gets p
 
 _Given a scenario, analyze potential indicators associated with network attacks_
 
-<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/add4d9a2-9e4d-4816-b017-c32774f780ad" width="250" height="auto">
+<img class="subdo-img" src="https://github.com/JHumphreys89/security_plus/assets/115595085/add4d9a2-9e4d-4816-b017-c32774f780ad" width="250" height="auto">
 
 ***
 
