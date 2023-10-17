@@ -115,7 +115,7 @@ _Compare and contrast different types of social engineering techniques._
 #### Prepending
 
 * An attacker adds a term or phrase to the header of an email to enhance its effectiveness as a social engineering attack.
-* Example: https://mmicrosoft.com.
+* Example: `https://mmicrosoft.com`
 
 <img class="subdo-img" src="../assets/images/1.1/img6.png" width="250" height="auto">
 
@@ -174,7 +174,7 @@ _Compare and contrast different types of social engineering techniques._
 #### Typosquating
 
 * A type of URL hijacking where there is a site with URLs that are slightly different from a legitimate source.
-* Example: https://microsoftt.com
+* Example: `https://microsoftt.com`
 
 <img class="subdo-img" src="../assets/images/1.1/img10.png" width="250" height="auto">
 
@@ -531,7 +531,7 @@ _Given a scenario, analyze potential indicators associated with application atta
 * When other users view the page, the malicious code executes and affects or attacks the user.
 * Malicious script can hijack the user's session, submit unauthorized transactions on the user's behalf, steal confidential information, or deface the page.
 * Example:
-  1. https://fakewebsite.com/status?message=All+is+well.
+  1. `https://fakewebsite.com/status?message=All+is+well`
   2. Application receives data in an HTTP request that includes data within the immediate response in an unsafe way. Response contains the following HTML code:
      
      ```html
