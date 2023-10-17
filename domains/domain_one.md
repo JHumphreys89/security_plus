@@ -446,6 +446,8 @@ _A type of security attack that involves the use of physical devices to gain aut
 
 #### Adversarial artificial intelligence (AI)
 
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/68b3bc93-9555-47c9-8e31-f0a0830af538" width="250" height="auto">
+
 * Machine learing: Computers identify patterns in data which in turn further improve their predictions. This requires an ample and continuous quantity of training data. It's in use everyday in a variety of products including email (anti-spam), websites (recommend products), and prevent car accidents (automatic breaks, self-driving).
 * Poisoning of the training data: Confuse AI. Attackers can feed the AI mofidied training data to cause it to behave incorrectly.
 * Evasion attacks: AI only as good as training data and attackers will find holes and limitations. AI that may be trained to fight spam may have an attacker try words that the AI does not treat as bad and allow through.
