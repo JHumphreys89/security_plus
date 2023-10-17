@@ -28,13 +28,13 @@ _Note:_ Terms below marked with an asterisk (*) may not be explicitly included i
 ***
 
 ## Subdomain 1.1
-###### [Top ^](https://jhumphreys89.github.io/security_plus/domains/domain_one.html#top)
+###### [Back to Top](https://jhumphreys89.github.io/security_plus/domains/domain_one.html#top)
 
 _Compare and contrast different types of social engineering techniques._
 
 **The act of gathering info on an attack by taking advantage of the weakest part of security: _people_.**
 
-<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/043b34ed-662b-45a2-8509-96599f955597" width="250" height="auto">
+<img src="../assets/images/1.1/img1.png" width="250" height="auto">
 
 #### Phishing
 
