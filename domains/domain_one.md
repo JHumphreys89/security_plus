@@ -14,20 +14,21 @@ _Percentage of Examination_: 24%
 
 | Subdomain | Description                                                                         |
 |:----------|:------------------------------------------------------------------------------------|
-| 1.1       | Compare and contrast different types of social engineering techniques.              |
-| 1.2       | Given a scenario, analyze potential indicators to determine the type of attack.     |
-| 1.3       | Given a scenario, analyze potential indicators associated with application attacks. |
-| 1.4       | Given a scenario, analyze potential indicators associated with network attacks.     |
-| 1.5       | Explain different threat actors, vectors, and intelligence sources.                 |
-| 1.6       | Explain the security concerns associated with various types of vulnerabilities.     |
-| 1.7       | Summarize the techniques used in security assessments.                              |
-| 1.8       | Explain the technigues used in penetration testing.                                 |
+| 1.1       | [Compare and contrast different types of social engineering techniques.](https://jhumphreys89.github.io/security_plus/domains/domain_one.html#subdomain-11)              |
+| 1.2       | [Given a scenario, analyze potential indicators to determine the type of attack.](https://jhumphreys89.github.io/security_plus/domains/domain_one.html#subdomain-12)     |
+| 1.3       | [Given a scenario, analyze potential indicators associated with application attacks.](https://jhumphreys89.github.io/security_plus/domains/domain_one.html#subdomain-13) |
+| 1.4       | [Given a scenario, analyze potential indicators associated with network attacks.](https://jhumphreys89.github.io/security_plus/domains/domain_one.html#subdomain-14)     |
+| 1.5       | [Explain different threat actors, vectors, and intelligence sources.](https://jhumphreys89.github.io/security_plus/domains/domain_one.html#subdomain-15)                 |
+| 1.6       | [Explain the security concerns associated with various types of vulnerabilities.](https://jhumphreys89.github.io/security_plus/domains/domain_one.html#subdomain-16)     |
+| 1.7       | [Summarize the techniques used in security assessments.](https://jhumphreys89.github.io/security_plus/domains/domain_one.html#subdomain-17)                              |
+| 1.8       | [Explain the technigues used in penetration testing.](https://jhumphreys89.github.io/security_plus/domains/domain_one.html#subdomain-18)                                 |
 
 _Note:_ Terms below marked with an asterisk (*) may not be explicitly included in the SY0-601 exam objectives, but are still important and relative to the course material.
 
 ***
 
 ## Subdomain 1.1
+###### [Top ^](https://jhumphreys89.github.io/security_plus/domains/domain_one.html#top)
 
 _Compare and contrast different types of social engineering techniques._
 
@@ -240,6 +241,7 @@ _Principles of Social Engineering and their reasons for effectiveness._
 ***
 
 ## Subdomain 1.2
+###### [Top ^](https://jhumphreys89.github.io/security_plus/domains/domain_one.html#top)
 
 _Given a scenario, analyze potential indicators to determine the type of attack._
 
@@ -506,6 +508,7 @@ _You now have encrypted the data and sent it to another person - is it secure? T
 ***
 
 ## Subdomain 1.3
+###### [Top ^](https://jhumphreys89.github.io/security_plus/domains/domain_one.html#top)
 
 _Given a scenario, analyze potential indicators associated with application attacks._
 
@@ -736,6 +739,7 @@ _A process where an attacker supplies untrusted input to a program, which gets p
 ***
 
 ## Subdomain 1.4
+###### [Top ^](https://jhumphreys89.github.io/security_plus/domains/domain_one.html#top)
 
 _Given a scenario, analyze potential indicators associated with network attacks_
 
