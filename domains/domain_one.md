@@ -538,7 +538,7 @@ _Given a scenario, analyze potential indicators associated with application atta
      <p>Status: All is well.</p>
      ```
      
-  3. An attack can craft a URL that includes malicious JavaScript code in the message parameter, which will be executed by the victim's broswer when they visit the URL
+  3. An attack can craft a URL that includes malicious JavaScript code in the message parameter, which will be executed by   the victim's broswer when they visit the URL
 
 #### Injections
 
@@ -552,7 +552,7 @@ _A process where an attacker supplies untrusted input to a program, which gets p
 * Attacker injects malicious SQL code into the applications input fields, which can then be executed by the database.
 * Can lead to unauthorized access to sensitive data, data loss, or even complete system compromise.
 * Example:
-  1. Suppose a web app uses an SQL database to store user info. The application has a login page that accepts a username and password. SQL query to authenticate the user might look like this:
+  1. Suppose a web app uses an SQL database to store user info. The application has a login page that accepts a username     and password. SQL query to authenticate the user might look like this:
      
      ```sql
      SELECT * FROM users WHERE username = 'username' AND password = 'password'
@@ -569,7 +569,7 @@ _A process where an attacker supplies untrusted input to a program, which gets p
      SELECT * FROM users WHERE username = ' ' OR 1=1 --' AND password = 'password'
      ```
      
-  4. The `--` at the end of the string is used to comment out the rest of the original query. The modified query will return all rows from the `users` table, effectively bypassing authentication.
+  4. The `--` at the end of the string is used to comment out the rest of the original query. The modified query will        return all rows from the `users` table, effectively bypassing authentication.
   
 ##### Dynamic-link library (DLL)
 
@@ -654,23 +654,55 @@ _A process where an attacker supplies untrusted input to a program, which gets p
 
 ##### Extensible Markup Language (XML)
 
-
+* A web security vulnerability that allows an attacker to manipulate or compromise the logic of an XML application or document.
+* It occurs when user input is not properly validated or sanitized before being added to an XML document or query.
+* As with other injection attacks, it is important to validate all input data and sanitize it before processing it. For XML it is recommended to disabled external entities in XML parsers and use whitelisting instead of blacklisting.
 
 #### Pointer/object deference
 
-
+* A pointer is a variable that stores memory addresses of another variable.
+* A null pointer is a pointer that does not point to any memory location.
+* A dangling pointer that points to a memory location that has been freed or deleted.
+* An object reference is a reference to an object in memory.
+* A null pointer reference occurs when the application dereferences a pointer that it expects to be valid, but is null, typically causing a chrash or exit.
+* Most null pointer issues reult in general software reliability problems, but if an attacker can intentionally trigger a null pointer dereference, the attacker might be able to use the resulting exception to bypass security logic or to cause the app to reveal debugging information that will be valuable in planning subsequent attacks.
+* Can also be used to cause a Denial of Service (DoS) attack.
 
 #### Directory traversal
 
+* Method of accessing unauthorized directories by moving through the directory structure on a remote server.
+* This can be done by manipulating input parameters used by the application to access files and directories.
+* Example URL tht could be used in a directory traversal attack:
 
+  `http://example.com/download.php?file=../../../etc/passwd`
+
+  1. In this example, the attacker is trying to access the `etc/passwd` file, which is typically only accessible by the         root user.
+* To prevent these attacks, it is important to validate user input and sanitize file paths.
 
 #### Buffer overflows
 
+* Overwriting a buffer of memory that spills into other memory areas.
+* Can lead to unpredictible behavior includeing crashes, data corruption, and even remote code execution.
+* Example of a buffer overflow in C programming:
+
+```C
+#include <stdio.h>
+#include <string.h>
+
+int main(int argc, char **argv) {
+    char buffer[16];
+    strcpy(buffer, argv[1]);
+    printf("Buffer contents: %s\n", buffer);
+    return 0;
+}
+```
+  1. In this example, the `strcpy` function is used to copy the contents of `argv[1]` into `buffer`. If `argv[1]` contains   more than 16 characters, the excess characters will overwrite adjacent memory locations.
+  2. This can be exploited by attackers to execute arbitrary code or crash the program.
 
 
 #### Race conditions
 
-
+*
 
 ##### Time of check/time of use
 
