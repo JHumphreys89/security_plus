@@ -113,6 +113,7 @@ _Compare and contrast different types of social engineering techniques._
 
 * An attacker adds a term or phrase to the header of an email to enhance its effectiveness as a social engineering attack.
 * Example: https://mmicrosoft.com.
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/1b75a220-bf01-4db7-8634-c05b97a49a9b" width="250" height="auto">
 
 #### Identity fraud
 
@@ -139,6 +140,8 @@ _Compare and contrast different types of social engineering techniques._
 
 #### Reconnaissance
 
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/a65c3398-2ff3-42c6-98c3-51954f57f366" width="250" height="auto">
+
 * Gathering information on a victim. Gathers background information to build a believable pretext.
 
 #### Hoax
@@ -150,6 +153,8 @@ _Compare and contrast different types of social engineering techniques._
 * Cross reference with others de-hoax sources such as hoax-slayer.net.
 
 #### Impersonation
+
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/9c9df5fb-6eb1-4465-a840-aad465653870" width="250" height="auto">
 
 * An attacker who pretends to be someone else in the hopes of eliciting Personally Identifiable Information (PII).
 * May use details gathered from reconnaissance - they know your place of work, bank, etc.
@@ -165,7 +170,8 @@ _Compare and contrast different types of social engineering techniques._
 #### Typosquating
 
 * A type of URL hijacking where there is a site with URLs that are slightly different from a legitimate source.
-* Example: https://microssoft.com
+* Example: https://microsoftt.com
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/cb4d0ad0-771e-4ca9-afb5-2040ae42af70" width="250" height="auto">
 
 #### Pretexting
 
@@ -189,6 +195,8 @@ _Usually nation-state actors that divide, distract, persuade and sway public opi
 
 #### Principles -reasons for effectiveness
 _Principles of Social Engineering and their reasons for effectiveness._
+
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/436dc6f9-cd28-41f1-962e-02deaeb4f868" width="250" height="auto">
 
 ##### Authority
 
@@ -310,6 +318,8 @@ Example:
 
 ##### Logic bombs
 
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/4ea5bffd-d153-49af-a922-56baa42a022f" width="250" height="auto">
+
 * Malicious code objects that infect a system and lie dormant until they are triggered by the occurrence of one or more conditions such as time, program launch, website logon, and so on.
 * Difficult to identify and difficult to recover if it goes off.
 
@@ -348,6 +358,8 @@ Example:
 #### Password attacks
 
 _Malicious ways hackers attempt to gain access to an account. A common attack vector used to bypass or exploit authentication of user accounts. Include several different techniques._
+
+<img src="https://github.com/JHumphreys89/security_plus/assets/115595085/5dcb6a72-4331-4285-8a59-6d77a7dc20f9" width="250" height="auto">
 
 ##### Spraying
 
@@ -431,9 +443,16 @@ _A type of security attack that involves the use of physical devices to gain aut
 
 #### Adversarial artificial intelligence (AI)
 
+* 
+
 ##### Tainted training data for machine learning (ML)
 
+* When attackers send modifying training data that cuases the AI to behave incorrectly - confuse the artificial intelligence.
+
 ##### Security of machine learning algorithms
+
+* Actions to take to constantly retrain, cross check, and verify AI training data with new data, more data, and better data to prevent AI poisoning.
+* It may also be plausible to train the AI with possible poisoning data so the AI knows what to look out for.
 
 #### Supply-chain attacks
 
