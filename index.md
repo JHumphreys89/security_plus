@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Notes, Documentation and Resources
+# Home - Notes, Documentation and Resources
 
 ## Exam Objectives (Domains) [PERCENTAGE OF EXAMINATION]
 
