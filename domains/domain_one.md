@@ -538,7 +538,7 @@ _Given a scenario, analyze potential indicators associated with application atta
      <p>Status: All is well.</p>
      ```
      
-  3. An attack can craft a URL that includes malicious JavaScript code in the message parameter, which will be executed by   the victim's broswer when they visit the URL
+  3. An attack can craft a URL that includes malicious JavaScript code in the message parameter, which will be executed by the victim's broswer when they visit the URL
 
 #### Injections
 
@@ -552,7 +552,7 @@ _A process where an attacker supplies untrusted input to a program, which gets p
 * Attacker injects malicious SQL code into the applications input fields, which can then be executed by the database.
 * Can lead to unauthorized access to sensitive data, data loss, or even complete system compromise.
 * Example:
-  1. Suppose a web app uses an SQL database to store user info. The application has a login page that accepts a username     and password. SQL query to authenticate the user might look like this:
+  1. Suppose a web app uses an SQL database to store user info. The application has a login page that accepts a username and password. SQL query to authenticate the user might look like this:
      
      ```sql
      SELECT * FROM users WHERE username = 'username' AND password = 'password'
@@ -569,7 +569,7 @@ _A process where an attacker supplies untrusted input to a program, which gets p
      SELECT * FROM users WHERE username = ' ' OR 1=1 --' AND password = 'password'
      ```
      
-  4. The `--` at the end of the string is used to comment out the rest of the original query. The modified query will        return all rows from the `users` table, effectively bypassing authentication.
+  4. The `--` at the end of the string is used to comment out the rest of the original query. The modified query will return all rows from the `users` table, effectively bypassing authentication.
   
 ##### Dynamic-link library (DLL)
 
@@ -678,7 +678,7 @@ _A process where an attacker supplies untrusted input to a program, which gets p
 
   `http://example.com/download.php?file=../../../etc/passwd`
 
-  1. In this example, the attacker is trying to access the `etc/passwd` file, which is typically only accessible by the         root user.
+  1. In this example, the attacker is trying to access the `etc/passwd` file, which is typically only accessible by the root user.
 * To prevent these attacks, it is important to validate user input and sanitize file paths.
 
 #### Buffer overflows
@@ -698,25 +698,59 @@ int main(int argc, char **argv) {
     return 0;
 }
 ```
-  1. In this example, the `strcpy` function is used to copy the contents of `argv[1]` into `buffer`. If `argv[1]` contains   more than 16 characters, the excess characters will overwrite adjacent memory locations.
+  1. In this example, the `strcpy` function is used to copy the contents of `argv[1]` into `buffer`. If `argv[1]` contains more than 16 characters, the excess characters will overwrite adjacent memory locations.
   2. This can be exploited by attackers to execute arbitrary code or crash the program.
 
 
 #### Race conditions
 
-*
+* A situation that occurs when two or more threads or processes access shared data and try to modify it at the same time, leading to unexecpted results.
+* It is a common problem in multithread applications and multi-process systems.
+* Suppose we have two threads, **Thread 1** and **Thread 2**, that are trying to access a shared variable **x**. **Thread 1** is responsible for setting the value of **x** to **10**, while **Thread 2** is responsible for printing the value of **x**. The following code snippet shows how this can be done:
+
+```java
+// Thread 1
+x = 10;
+
+// Thread 2
+print(x);
+```
+
+  Assume that **Thread 2** starts executing before **Thread 1** and prints the value of **x** as **0**. This happens because the default value of an integer variable in Java is **0**, and **Thread 2** reads the value of **x** before it is set by **Thread 1**.
+* To avoid race conditions, it is necessary to use synchronization mechanisms such as locks or semaphores to ensure that only one thread can access the shared data at any given time.
 
 ##### Time of check/time of use
 
-
+* A type of software bug caused by a race condition involving the checking of the state of a part of a system and the use of the results of that check.
+* This can happen when shared resources such as files, memory, or even variables in multithread programs
+* The name "time of check to time-of-use" refers to the period between the time when a given resource is checked and the time that resource is used.
+* A TOCTOU race condition occurs when between these two times, a change occurs in the resource to invalidate the results of the check.
+* Weakness can be security relevant when an attacker can influence the satate of the resource between check and use.
+* Common in Unix systems, where they can be exploited to gain elevated privileges.
 
 #### Error handling
 
+* Dealing with errors that occur when the programs are running and communicating the response to the software developer and the user.
+* Validate data (test for completeness, test for data type - valid data); don't allow system to crash; change color or textbox with errors.
+* Improper error handling can lead to security vulnerabilities in applications and websites.
+* For instance, error messages that provide clues about how an application or website operates can be used by attackers to break into secured areas.
+* An example of error handling in JavaScript:
 
+  ```javascript
+  try {
+    // Code that might throw an error
+  } catch (error) {
+    // Code to handle the error
+  }
+  ```
+
+  The `try` block contains the code that might throw an error. If an error is thrown, the `catch` block will execute, and the `error` object will contain information about the error. You can then use this information to handle the error appropriately.
 
 #### Improper input handling
 
-
+* Invalid input that is accepted and used maliciously, causing attacks such as SQL injections, buffer overflows, denial of service, etc.
+* Occurs when the software receives input or data, but it does not validate or incorrectly validates that the input has the properties are required to process the data safely and correctly. This can lead to parts of the system receiving unintended input.
+* An example of this is when a web application exposes a function `showInfo()` that accepts parameters `name` and `template` from the user and opens a file based on this input. If the application does not validate the input properly, an attacker can craft the input in a form that is not expected by the rest of the application.
 
 #### Replay attack
 
