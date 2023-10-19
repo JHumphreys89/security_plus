@@ -849,6 +849,159 @@ _Given a scenario, analyze potential indicators associated with network attacks_
 
 <img class="subdo-img" src="../assets/images/1.4/img1.png" width="250" height="auto">
 
+#### Wireless
+
+_Some wireless attack vectors include evil twins, rogue access points wireless attack vectors includePotential indicators of wireless network attacks can include unusual network activity, unauthorized access points, unusual wireless activity, unusual device behavior, unusual login activity, and more._
+
+<img class="subdo-img" src="../assets/images/1.4/img2.png" width="250" height="auto">
+
+##### Evil twin
+
+* A wireless access point with the same SSID as the legitimate access point.
+
+##### Rogue access point
+
+* An unauthorized access point that allows an attacker to bypass network security configurations.
+
+##### Bluesnarfing
+
+* The act of gaining unauthorized access to a device (and the network it is connected to) through its Bluetooth connection.
+
+##### Bluejacking
+
+* An attack that sends unsolicited messages over a Bluetooth connection.
+* Example - with an address book object: Instead of contact name, write a message
+* Third-party software may also be used.
+
+##### Disassociation
+
+* A type of Denial of Service (DoS) attack in which the attacker breaks the wireless connection between the victim device and the access point.
+* The attack spoofs the MAC address of the victim's device and sends a deauthorization frame to an access point, causing the device to get disconnected from the network.
+
+##### Jamming
+
+* The intentional interference with communication signals to reduce signal strength or block them entirely.
+
+##### Radio Frequency Identification (RFID)
+
+<img class="subdo-img" src="../assets/images/1.4/img3.png" width="250" height="auto">
+
+* A technology that uses active or passive tags in the form of chips or smart labels that can store unique identifiers and relay this information to electronic readers.
+
+##### Near-field communication
+
+* A low-power communications protocol for short ranges between two devices.
+
+##### Initialization vector (IV)
+
+* A type of nonce, used for randomizing an encryption scheme.
+* You may see this used in encryption ciphers, WEP, and some SSL implementation.
+* Used in cryptography to ensure the same plaintext message encrypted with the same key doesn't produce the same ciphertext.
+* Example of IV in an AES encryption:
+
+  ```AES
+  from Crypto.Cipher import AES
+  from Crypto.Random import get_random_bytes
+
+  key = get_random_bytes(16)
+  cipher = AES.new(key, AES.MODE_CBC)
+  iv = cipher.iv
+  plaintext = b'This is a secret message'
+  ciphertext = cipher.encrypt(plaintext)
+
+  print(f'Key: {key.hex()}')
+  print(f'IV: {iv.hex()}')
+  print(f'Ciphertext: {ciphertext.hex()}')
+  ```
+  we use the `Crypto.Cipher` library to create an AES cipher object with a randomly generated 16-byte key. We then use the `MODE_CBC` mode to encrypt the plaintext message `b'This is a secret message'`. The initialization vector is generated automatically by the cipher object and can be accessed using `cipher.iv`. The ciphertext is then printed along with the key and IV.
+
+#### On-path attack (previously known as man-in-the-middle attack/man-in-the-browser attack)
+
+<img class="subdo-img" src="../assets/images/1.4/img4.png" width="500" height="auto">
+
+* An on-path attack is a type of attack where an attacker places themselves between two devices, intercepts and modifies communications between them.
+* The attacker can collect information as well as impersonate either of the two agents.
+
+#### Layer 2 attacks
+
+__
+
+##### Address resolution
+
+* 
+
+##### Protocol (ARP) poisoning
+
+* 
+
+##### Media access control (MAC) flooding
+
+* 
+
+##### MAC cloning
+
+* 
+
+#### Domain name system (DNS)
+
+__
+
+##### Domain hijacking
+
+* 
+
+##### DNS poisoning
+
+* 
+
+##### Uniform Resource Locator (URL) redirection
+
+* 
+
+##### Domain reputation
+
+* 
+
+#### Distributed Denial-of-Service
+
+__
+
+##### Network
+
+* 
+
+##### Application
+
+* 
+
+##### Operational technology (OT)
+
+* 
+
+#### Malicious code or script execution
+
+__
+
+##### PowerShell
+
+* 
+
+##### Python
+
+* 
+
+##### Bash
+
+* 
+
+##### Macros
+
+* 
+
+##### Visual Basic for Applications (VBA)
+
+* 
+
 ***
 
 ## Subdomain 1.5
