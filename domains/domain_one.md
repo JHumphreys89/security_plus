@@ -23,7 +23,7 @@ _Percentage of Examination_: 24%
 | 1.5       | [Explain different threat actors, vectors, and intelligence sources.](#subdomain-15)                 |
 | 1.6       | [Explain the security concerns associated with various types of vulnerabilities.](#subdomain-16)     |
 | 1.7       | [Summarize the techniques used in security assessments.](#subdomain-17)                              |
-| 1.8       | [Explain the technigues used in penetration testing.](#subdomain-18)                                 |
+| 1.8       | [Explain the techniques used in penetration testing.](#subdomain-18)                                 |
 
 _Note:_ Terms below marked with an asterisk (*) may not be explicitly included in the SY0-601 exam objectives, but are still important and relative to the course material.
 
@@ -40,9 +40,9 @@ _Compare and contrast different types of social engineering techniques._
 
 #### Phishing
 
-* A form of social engineering where attackers deceive people into revealing senstive information or installing malware such as ransomware.
+* A form of social engineering where attackers deceive people into revealing sensitive information or installing malware such as ransomware.
 * Often delivered through email, text, etc.
-* Often noticable issues with spelling, fonts, graphics.
+* Often noticeable issues with spelling, fonts, graphics.
 
 #### Smishing
 
@@ -109,7 +109,7 @@ _Compare and contrast different types of social engineering techniques._
 #### Whaling
 
 * A type of phishing targeted at high-level personnel such as senior executives.
-* CFO or other executives targetted through phishing or other methods.
+* CFO or other executives targeted through phishing or other methods.
 * Executives generally have direct access to corporate banking.
 
 #### Prepending
@@ -123,10 +123,10 @@ _Compare and contrast different types of social engineering techniques._
 
 * The use of one person of another person's personal information, without authorization, to commit a crime or to deceive or defraud that other person or a third person.
 * Credit fraud - open an account under your name or take your credit card information.
-* Bank fraud - opens an account under your name or gains access to your bank acount.
+* Bank fraud - opens an account under your name or gains access to your bank account.
 * Loan fraud - Your personal information is used for a loan/lease.
 * Government benefits fraud - Attacker claims benefits using your identity.
-* Always verify before giving away information to another individual or oragnization. Don't give out passwords or disclose personal details.
+* Always verify before giving away information to another individual or organization. Don't give out passwords or disclose personal details.
 
 #### Invoice scams
 
@@ -152,7 +152,7 @@ _Compare and contrast different types of social engineering techniques._
 
 * A threat that does not actually exist, is often in the form of an email, and still often consumes excessive resources.
 * Hoax is often spread through email or social media.
-* Some will take your money or waste as much time investigating it as if it were a legitmate issue.
+* Some will take your money or waste as much time investigating it as if it were a legitimate issue.
 * Spam filters can help
 * Cross reference with others de-hoax sources such as hoax-slayer.net.
 
@@ -184,7 +184,7 @@ _Compare and contrast different types of social engineering techniques._
 * Actor is a character in a scenario they create - "Hello, this is account service with xyz. We want to confirm your banking information..."
 
 #### Influence Campaigns
-_Usually nation-state actors that divide, distract, persuade and sway public opinion on policial and social issues._
+_Usually nation-state actors that divide, distract, persuade and sway public opinion on political and social issues._
 
 <img class="subdo-img" src="../assets/images/1.1/img11.png" width="250" height="auto">
 
@@ -205,7 +205,7 @@ _Principles of Social Engineering and their reasons for effectiveness._
 
 ##### Authority
 
-* To impersonate or imply a positon of authority.
+* To impersonate or imply a position of authority.
 * Attacker will impersonate someone such as a police officer or Help Desk employee to try and spoof you into giving away information.
 
 ##### Intimidation
@@ -213,7 +213,7 @@ _Principles of Social Engineering and their reasons for effectiveness._
 * To frighten by threat.
 * "If you don't get me the credentials for that server, the whole thing will go down..."
 
-##### Concensus
+##### Consensus
 
 * Influence a victim by what others do; everyone else does it!
 * "Well Bill who works with you did this for me before..."
@@ -281,13 +281,13 @@ _Malicious software. Intended to damage or disable computers and computer system
 ##### Potentially unwanted Programs (PUPs)
 
 * A form of software that is often unsuspectingly installed with other software and is normally undesirable.
-* Examples of this would be an overly agressive browser toolbar, a backup utility that displays ads, or a browser earch engine hijacker.
+* Examples of this would be an overly aggressive browser toolbar, a backup utility that displays ads, or a browser search engine hijacker.
 
 ##### Fileless virus
 
 <img class="subdo-img" src="../assets/images/1.2/img3.png" width="250" height="auto">
 
-* A virus that does not save as a file ont he computer directly; instead, it operates in memory and is never installed.
+* A virus that does not save as a file on the computer directly; instead, it operates in memory and is never installed.
 
 Example:
 1. User clicks on malicious website link.
@@ -331,7 +331,7 @@ Example:
 
 ##### Spyware
 
-* A software application that is secretly placed on a user's system to gather informatin and relay it to outside parties (host machine).
+* A software application that is secretly placed on a user's system to gather information and relay it to outside parties (host machine).
 * They are generally difficult to recognize as each is unique and does not have a predefined signature.
 * Can be prevented through process and procedures, electronic monitoring such as host-based intrusion detection, and constant monitoring from administrators.
 
@@ -353,7 +353,7 @@ Example:
 
 * A set of software tools that enable an unauthorized user to gain control of a computer without being detected.
 * Modifies the core system files; invisible to the OS and traditional anti-virus utilities.
-* Make sure to look for the unusual and perform anti-malware scans. Use a remover specific to the rootkit which are normally built after the rootkit is discovered. Secure boot with UEFI which is additional security embeded in the BIOS.
+* Make sure to look for the unusual and perform anti-malware scans. Use a remover specific to the rootkit which are normally built after the rootkit is discovered. Secure boot with UEFI which is additional security embedded in the BIOS.
 
 ##### Backdoor
 
@@ -371,7 +371,7 @@ _Malicious ways hackers attempt to gain access to an account. A common attack ve
 
 * Attack an account with the top three (or more) common passwords - if they don't work, move on to the next account.
 * No lockouts, no alarms, no alerts.
-* Can be found commonly where the application or admin sets a defaut password for new users.
+* Can be found commonly where the application or admin sets a default password for new users.
 
 ##### Dictionary
 
@@ -393,7 +393,7 @@ _Malicious ways hackers attempt to gain access to an account. A common attack ve
 
 * Lists of common passwords and the value they hash to.
 * An optimized, pre-built set of hashes that saves time and storage space and contains pre-calculated hash chains.
-* Has a remarkable speed increase, especiailly with longer password lengths.
+* Has a remarkable speed increase, especially with longer password lengths.
 
 _Example of a rainbow table using MD5 hash._
 
@@ -441,7 +441,7 @@ _A type of security attack that involves the use of physical devices to gain aut
 
 * Physical attack where card details are compromised and placed on a duplicate card, often included with the printed CVC (Card Validation Code).
 * The card magnetic stripe is duplicated but the chip cannot be cloned.
-* Card details are generalling cloned by a skimmer.
+* Card details are generally cloned by a skimmer.
 * Cloning gift cards are common as they use magnetic stripe technology.
 
 ##### Skimming
@@ -456,14 +456,14 @@ _A type of security attack that involves the use of physical devices to gain aut
 
 <img class="subdo-img" src="../assets/images/1.2/img12.png" width="250" height="auto">
 
-* Machine learing: Computers identify patterns in data which in turn further improve their predictions. This requires an ample and continuous quantity of training data. It's in use everyday in a variety of products including email (anti-spam), websites (recommend products), and prevent car accidents (automatic breaks, self-driving).
-* Poisoning of the training data: Confuse AI. Attackers can feed the AI mofidied training data to cause it to behave incorrectly.
+* Machine learning: Computers identify patterns in data which in turn further improve their predictions. This requires an ample and continuous quantity of training data. It's in use everyday in a variety of products including email (anti-spam), websites (recommend products), and prevent car accidents (automatic breaks, self-driving).
+* Poisoning of the training data: Confuse AI. Attackers can feed the AI modified training data to cause it to behave incorrectly.
 * Evasion attacks: AI only as good as training data and attackers will find holes and limitations. AI that may be trained to fight spam may have an attacker try words that the AI does not treat as bad and allow through.
 * Secure: Check and crosscheck training data. Constantly retrain the AI with new data, more data. Train the AI with the poisoned data - let the AI know what it is up against.
 
 ##### Tainted training data for machine learning (ML)
 
-* When attackers send modifying training data that cuases the AI to behave incorrectly - confuse the artificial intelligence.
+* When attackers send modifying training data that causes the AI to behave incorrectly - confuse the artificial intelligence.
 
 ##### Security of machine learning algorithms
 
@@ -481,8 +481,8 @@ _A type of security attack that involves the use of physical devices to gain aut
 #### Cloud-based vs. on-premises attacks
 
 * Attackers want data no matter where it is.
-* When it comes to cloud-based security, it is centalized and can cost less as it requires no dedicated hardware or data center to secure - a third-party handles that.
-* With on-premises, the security burden is placed on the client and requires data center securty and infrastructure costs.
+* When it comes to cloud-based security, it is centralized and can cost less as it requires no dedicated hardware or data center to secure - a third-party handles that.
+* With on-premises, the security burden is placed on the client and requires data center security and infrastructure costs.
 
 #### Cryptographic attacks
 
@@ -492,7 +492,7 @@ _You now have encrypted the data and sent it to another person - is it secure? T
 
 <img class="subdo-img" src="../assets/images/1.2/img14.png" width="250" height="auto">
 
-* This attack will generate multiple versions of plaintext to match the hashes and find collision through bruteforce.
+* This attack will generate multiple versions of plaintext to match the hashes and find collision through brute force.
 * Exploits the mathematics behind the [birthday problem in probability theory](https://en.wikipedia.org/wiki/Birthday_attack). This problem asks for the probability that, in a set of _n_ randomly chosen people, at least two will share a birthday.
 * You can help protect yourself by using a large hash output size. 🧂
 
@@ -518,7 +518,7 @@ _Given a scenario, analyze potential indicators associated with application atta
 
 #### Privilege escalation
 
-* Gaining access to files you should not have permission to on a valid account via exploition of a vulnerability.
+* Gaining access to files you should not have permission to on a valid account via exploitation of a vulnerability.
 * Usually access is of highest level and is of great concern.
 * Can include horizontal privilege escalation where an attacker gets access to another credential on the network with higher privileges than the initial one used to gain their foothold.
 * Make sure to patch software and OS as well as ensure anti-malware signatures are up to date. Also practice Data execution prevention.
@@ -548,7 +548,7 @@ _A process where an attacker supplies untrusted input to a program, which gets p
 
 ##### Structured query language (SQL)
 
-* Web security vulerability that allows an attacker to interfere with the queries that an application makes to its database.
+* Web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database.
 * Attacker injects malicious SQL code into the applications input fields, which can then be executed by the database.
 * Can lead to unauthorized access to sensitive data, data loss, or even complete system compromise.
 * Example:
@@ -573,7 +573,7 @@ _A process where an attacker supplies untrusted input to a program, which gets p
   
 ##### Dynamic-link library (DLL)
 
-* A techique used for running code withi the address space of another process by forcing it to load a dynamic-link library.
+* A technique used for running code with the address space of another process by forcing it to load a dynamic-link library.
 * DLL injection is often used by external programs to influence the behavior of another program in a way it's authors did not anticipate or intend.
 * Example of a simple injection in C++:
 
@@ -628,11 +628,11 @@ _A process where an attacker supplies untrusted input to a program, which gets p
 
 ##### Lightweight Directory Access Protocol (LDAP)
 
-* A technique used to exploit web applications which could reveal senstive information or modify information represented in the LDAP data stores.
+* A technique used to exploit web applications which could reveal sensitive information or modify information represented in the LDAP data stores.
 * It exploits a vulnerability in an application by manipulating input parameters passed to internal search, add or modify functions.
 * When an application fails to properly sanitize user input, it is possible for an attacker to modify a statement.
 * Example:
-  1. Suppose an application uses the fllowing LDAP query to authenticate a user:
+  1. Suppose an application uses the following LDAP query to authenticate a user:
 
   ```ldap
   (&(uid=admin)(userPassword=pass))
@@ -644,7 +644,7 @@ _A process where an attacker supplies untrusted input to a program, which gets p
   *)(uid=*))(|(uid=*
   ```
 
-  3. This would result in the folowing LDAP query:
+  3. This would result in the following LDAP query:
  
   ```ldap
   (&(uid=*)(uid=*))(|(uid=*)(userPassword=pass))
@@ -666,15 +666,15 @@ _A process where an attacker supplies untrusted input to a program, which gets p
 * A null pointer is a pointer that does not point to any memory location.
 * A dangling pointer that points to a memory location that has been freed or deleted.
 * An object reference is a reference to an object in memory.
-* A null pointer reference occurs when the application dereferences a pointer that it expects to be valid, but is null, typically causing a chrash or exit.
-* Most null pointer issues reult in general software reliability problems, but if an attacker can intentionally trigger a null pointer dereference, the attacker might be able to use the resulting exception to bypass security logic or to cause the app to reveal debugging information that will be valuable in planning subsequent attacks.
+* A null pointer reference occurs when the application dereferences a pointer that it expects to be valid, but is null, typically causing a crash or exit.
+* Most null pointer issues result in general software reliability problems, but if an attacker can intentionally trigger a null pointer dereference, the attacker might be able to use the resulting exception to bypass security logic or to cause the app to reveal debugging information that will be valuable in planning subsequent attacks.
 * Can also be used to cause a Denial of Service (DoS) attack.
 
 #### Directory traversal
 
 * Method of accessing unauthorized directories by moving through the directory structure on a remote server.
 * This can be done by manipulating input parameters used by the application to access files and directories.
-* Example URL tht could be used in a directory traversal attack:
+* Example URL that could be used in a directory traversal attack:
 
   `http://example.com/download.php?file=../../../etc/passwd`
 
@@ -684,7 +684,7 @@ _A process where an attacker supplies untrusted input to a program, which gets p
 #### Buffer overflows
 
 * Overwriting a buffer of memory that spills into other memory areas.
-* Can lead to unpredictible behavior includeing crashes, data corruption, and even remote code execution.
+* Can lead to unpredictable behavior including crashes, data corruption, and even remote code execution.
 * Example of a buffer overflow in C programming:
 
 ```C
@@ -725,7 +725,7 @@ print(x);
 * This can happen when shared resources such as files, memory, or even variables in multithread programs
 * The name "time of check to time-of-use" refers to the period between the time when a given resource is checked and the time that resource is used.
 * A TOCTOU race condition occurs when between these two times, a change occurs in the resource to invalidate the results of the check.
-* Weakness can be security relevant when an attacker can influence the satate of the resource between check and use.
+* Weakness can be security relevant when an attacker can influence the state of the resource between check and use.
 * Common in Unix systems, where they can be exploited to gain elevated privileges.
 
 #### Error handling
@@ -736,7 +736,7 @@ print(x);
 * For instance, error messages that provide clues about how an application or website operates can be used by attackers to break into secured areas.
 * An example of error handling in JavaScript:
 
-  ```javascript
+  ```js
   try {
     // Code that might throw an error
   } catch (error) {
@@ -754,33 +754,44 @@ print(x);
 
 #### Replay attack
 
+<img class="subdo-img" src="../assets/images/1.3/img5.png" width="500" height="auto">
 
+* An attack where an intruder records the communication between the user and a server, and later plays the recorded information back to impersonate the user. This is **NOT** an on-path attack as this does not require the original workstation.
+* Network tap, ARP poisoning, malware are some of the methods used to achieve this.
 
 ##### Session replays
 
-
+* When the client is first assigned to the server, the user is given a session ID (usually in the form of cookies.) Instead of constantly signing in, the user can access the server using the session ID
+* If an attacker intercepts the session ID, then they will be able to log in as the client and access the server.
 
 #### Integer overflow
 
-
+* Is where a large number might be placed into a smaller section of memory - and that extra space needs to go somewhere - and usually it goes into an area of memory that is overflowed.
+* This can lead to unexpected results, such as the program crashing (DoS) or producing incorrect output.
+* For instance, in C programming, the `int` data type is typically used to store integers. The maximum value that can be stored in 32-bit `int` is 2,147,483,647. If you try to store a larger number than this in an `int`, an integer overflow will occur. For example, if you add at least 1 to the maximum value of an `int`, the result will be -2,147,483,648 instead of -2,147,483,648.
 
 #### Request forgeries
 
-
+_A type of malicious exploit of a website or web application where unauthorized commands are submitted from a user that the web application trusts. There are two types of request forgeries: cross-site request forgeries (CSRF) and server-side request forgeries (SSRF).
 
 ##### Server-side
 
-
+* An attacker finds a vulnerable web application - generally caused by bad programming - and communicates to a web server and sends a request that controls a web application. The web server sends a request to another service, such as cloud file storage. Cloud storage sends response to the web server. Web server forwards response to the attacker.
 
 ##### Cross-site
 
+<img class="subdo-img" src="../assets/images/1.3/img6.png" width="500" height="auto">
 
+* One-click attack, session riding (XSRF, CRSF(see surf)). Takes advantage of the trust that a web application has for a user.
+* For instance, web site trusts your browser. Requests are made without your consent or your knowledge - attacker posts Facebook status on your account.
 
 #### Application programming interface (API) attacks
 
+* Attackers look for vulnerabilities in this new communication path - exposing sensitive data, DoS, intercepted communication, privileged access.
+* For example, an attacker can launch am API injection attack by injecting malicious code into an application that does not follow secure coding practices. This can lead to unauthorized access to resources and data, such as SQL injection, JSON injection, and cross-site scripting (XSS).
+* To prevent API attacks, it is important to implement security measures such as authentication and authorization mechanisms, rate limiting, and input validation.
 
-
-##### Resource exhaustion
+#### Resource exhaustion
 
 
 
