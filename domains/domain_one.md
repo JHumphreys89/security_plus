@@ -793,29 +793,52 @@ _A type of malicious exploit of a website or web application where unauthorized 
 
 #### Resource exhaustion
 
-
+* Occurs when applications are allowed to operate in an unrestricted and unmonitored manner so that all available system resources are consumed in the attempt to serve the requests of valid users or in response to a DoS attack.
+* Some examples would be a ZIP bomb, DHCP starvation.
 
 #### Memory leak
 
+* Memory which is allocated, but never deallocated (or freed) by the program
+* Example of a memory leak in C:
 
+```C
+void g () {
+  int* ptr = (int*)malloc(sizeof(int));
+  ptr = (int*)malloc(sizeof(int));
+  return;
+}
+```
+  `g()` allocates the memory on the heap using `malloc`, but assigns a new value to `ptr` without freeing previously allocated memory. This means that every time `g()` is called, it will allocate more memory on the heap, leading to a memory leak.
+* Memory leaks can occur in any programming language that allows dynamic allocation memory and it is important for programmers to be aware of this issue and take steps to avoid it.
 
-#### Secure Socks Layer (SSL) stripping
+#### Secure Sockets Layer (SSL) stripping
 
+<img class="subdo-img" src="../assets/images/1.3/img7.png" width="500" height="auto">
 
+* An attack that combines an on-path attack with a downgrade attack in which the attacker sites in the middle of a conversation - must modify data between the victim and the web server acting as a proxy server or rogue Wi-Fi hotspot, using ARP spoofing, etc. The victim does not generally see any problem - except the browser page isn't encrypted. Removing the secure connection, traffic can be redirected, and instead of communicating to the web server the victim is communicating to the attacker.
 
 #### Driver manipulation
 
-
+_Security threats that involve altering system drivers to achieve a malicious outcome. Attackers can use shimming and refactoring to modify the behavior of an app, remove certain security features, bypass anti-virus or other security software, or hide the presence of malware._
 
 ##### Shimming
 
-
+* Type of attack that targets a system's security measures.
+* It is a form of malicious software designed to bypass security measures and gain access to the system.
+* It works by inserting malicious code into a legitimate process or application.
 
 ##### Refactoring
 
-
+* The process of restructuring existing code without changing its behavior. It is a way to improve the design, structure and implementation of software.
+* Can also be used to help find bugs or vulnerabilities hidden in their software.
 
 #### Pass the hash
+
+<img class="subdo-img" src="../assets/images/1.3/img8.png" width="500" height="auto">
+
+* Victim sends credentials to the server and during this attack intercepts (via ARP poisoning or some other form of redirection) the credentials on the network for the username and hashed password.
+* They can now pretend to be the original user by sending those hashed credentials and pass those credentials to the server as if it were doing this from the original client.
+* From the prospect of the server, this looks like normal authentication from a legitimate user and means that the attack would have access to that user's account on the server.
 
 ***
 
@@ -824,7 +847,16 @@ _A type of malicious exploit of a website or web application where unauthorized 
 
 _Given a scenario, analyze potential indicators associated with network attacks_
 
-<img class="subdo-img" src="https://github.com/JHumphreys89/security_plus/assets/115595085/add4d9a2-9e4d-4816-b017-c32774f780ad" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.4/img1.png" width="250" height="auto">
+
+***
+
+## Subdomain 1.5
+###### [Back to Top](#top)
+
+_Explain different threat actors, vectors, and intelligence sources._
+
+<img class="subdo-img" src="../assets/images/1.5/img1.png" width="250" height="auto">
 
 ***
 
