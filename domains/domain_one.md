@@ -924,67 +924,74 @@ _Some wireless attack vectors include evil twins, rogue access points wireless a
 
 #### Layer 2 attacks
 
-__
+_Attacks that target the data link layer of the OSI model. The data link layer is responsible for transferring data between adjacent network nodes in a wide area network (WAN) or local area network (LAN)._ 
 
-##### Address resolution
+##### Address resolution Protocol (ARP) poisoning
 
-* 
+<img class="subdo-img" src="../assets/images/1.4/img5.png" width="500" height="auto">
 
-##### Protocol (ARP) poisoning
-
-* 
+* An attack that exploits weaknesses in the ARP protocol to disrupt, redirect, or spy on network traffic.
+* It is a technique where an attacker sends fake ARP messages to the target computer in order to associate the attacker's MAC address with the IP address of the target. This allows the attacker to intercept and modify network traffic between the host and other hosts on the network.
 
 ##### Media access control (MAC) flooding
 
-* 
+* An attack that works by forcing legitimate MAC table contents out of the switch and forcing a unicast flooding behavior potentially sending sensitive information to portions of the network where it is not normally intended to go.
+* Effectively turns the switch into a hub with all traffic transmitted to all interfaces.
+* An attack can then easily capture all network traffic.
 
 ##### MAC cloning
 
-* 
+* A type of attack where an attacker copies the MAC address of a legitimate device on the network to gain unauthorized access or redirect data. The attack can modify the MAC address of their device to match the MAC address of another device that is either on the network or has recently left the network.
+* This can allow the attacker to bypass security devices or launch a man-in-the-middle attack.
 
 #### Domain name system (DNS)
 
-__
+_Attacks that target the DNS. DNS is responsible for translating human-readable domain names into machine-readable IP addresses. Attackers can exploit vulnerabilities in the DNS to prevent users from accessing certain websites, or redirect them to malicious sites._
 
 ##### Domain hijacking
 
-* 
+* The malicious action of changing the registration of a domain name without the authorization of the owner.
+* May be accomplished by stealing the owner's logon credentials, using XSRF, session hijacking, or MitM; or by exploiting a flaw in the domain registrar's systems.
 
 ##### DNS poisoning
 
-* 
+* A hacking technique that manipulates known vulnerabilities within the domain name system. The attack can reroute traffic from one site to a fake version, by entering fake information into the cache of a domain name server.
 
 ##### Uniform Resource Locator (URL) redirection
 
-* 
+* Also known as URL forwarding, this technique is used to give more than one URL address to a page, a form, or a whole website/application. It is used to redirect a domain's visitors to a different URL.HTTP has a special kind of response, called a HTTP redirect, for this operation. Redirects use status codes defined within the HTTP protocol.
+* Attackers will use this to redirect users to malicious sites without a victim's knowledge or consent. This is done by sending a link to the victim that appears to be legitimate but actually redirects them to a malicious website.
 
 ##### Domain reputation
 
-* 
+<img class="subdo-img" src="../assets/images/1.4/img6.png" width="250" height="auto">
+
+* An attack that can damage your digital reputation by compromising a user's account and generating spam using it. If attackers gain access to more accounts or systems, your domain could become a spamming platform or part of a botnet, or used in part of a DoS attack, or for corporate espionage.
 
 #### Distributed Denial-of-Service
 
-__
+_An attack where multiple systems, which are infected with malware, target a particular system to cause a Denial of Service attack. The attacker uses multiple servers and internet connections to flood the targeted resource with traffic, making it unavailable to legitimate users._
 
 ##### Network
 
-* 
+* Attacks designed to flood the network with superfluous traffic. a DDoS attack results in either degraded network performance or an outright service outage of critical infrastructure.
 
 ##### Application
 
-* 
+* A technique that makes an application break or work harder to increase downtime and costs.
+* Example: Zip bombs, force overuse of a measured cloud resource (CPU/memory/network), increase the cloud server response time - spam deploying new application instances.
 
 ##### Operational technology (OT)
 
-* 
+* A Denial of Service attack on hardware and software or industrial equipment such as electrical grids, traffic control, manufacturing plants, etc.
 
 #### Malicious code or script execution
 
-__
+_The use of malware or scripts to exploit vulnerabilities in a system to gain unauthorized access to sensitive data._
 
 ##### PowerShell
 
-* 
+* A way to extend command line functions and attack Windows systems including system administration, active domain administration, and file share access.
 
 ##### Python
 
