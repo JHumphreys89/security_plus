@@ -1038,19 +1038,29 @@ _Explain different threat actors, vectors, and intelligence sources._
 
 #### Actors and threats
 
-__
+_An **actor** is an entity that performs actions on a system or network. Actors can be a human or non-human, such as a software program or a bot. Actors can perform a **threat**, which is defined as a possible danger that can exploit a vulnerability to breach the security of a system and cause harm._
 
 ##### Advanced Persistent Threat (APT)
 
-* 
+<img class="subdo-img" src="../assets/images/1.5/img2.png" width="250" height="auto">
+
+* A covert cyber attack on a computer network where the attacker gains and maintains unauthorized access to the targeted network and remains unprotected for a significant period. It's intention is to exfiltrate or steal data rather than cause a network outage, denial of service, or infect systems with malware.
+* Often goes hand in hand with social engineering tactics or exploit software vulnerabilities in organizations with high value information.
 
 ##### Insider threats
 
-* 
+<img class="subdo-img" src="../assets/images/1.5/img3.png" width="250" height="auto">
+
+* A security threat that originates from within the organization being attacked or targeted, often an employee or officer of an organization or enterprise.
+* This threat does not have to be a present employee or stakeholder, but can also be a former employee, board member, or anyone who at one time had access to proprietary or confidential information from within an organization or entity.
 
 ##### State actors
 
-* 
+<img class="subdo-img" src="../assets/images/1.5/img4.png" width="250" height="auto">
+
+* A group or individual who is acting on behalf of a government or political entity.
+* Unlike other threat actors, state actors have access to significant resources and are usually motivated by political or economic interests rather than financial gain.
+* They are capable of launching sophisticated hacking operations that secretly infiltrate networks over prolonged periods and generally seek intelligence gathering, which can be used for espionage or military purposes.
 
 ##### Hacktivists
 
