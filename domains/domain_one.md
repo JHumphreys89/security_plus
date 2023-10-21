@@ -1064,11 +1064,14 @@ _An **actor** is an entity that performs actions on a system or network. Actors 
 
 ##### Hacktivists
 
-* 
+<img class="subdo-img" src="../assets/images/1.5/img5.png" width="250" height="auto">
+
+* Hackers who are driven by a cause like social change, political agendas, or terrorism.
+* Examples of these organizations include [Anonymous](https://www.politico.com/news/2023/10/15/hackers-israel-hamas-war-00121593), [LulzSec](https://hackaday.com/2016/01/26/the-dark-arts-meet-the-lulzsec-hackers/), [RedHack](https://en.wikipedia.org/wiki/RedHack), and [Chaos Computer Club](https://hackaday.com/2014/12/06/chaos-computer-club-and-hackaday-blocked-by-british-porn-filters/).
 
 ##### Script kiddies
 
-* 
+* Hackers with little to no skill who only use the tools and exploits written by others.
 
 ##### Criminal Syndicates
 
