@@ -27,6 +27,8 @@ _Percentage of Examination_: 24%
 
 _Note:_ Terms below marked with an asterisk (*) may not be explicitly included in the SY0-601 exam objectives, but are still important and relative to the course material.
 
+_Second Note: Any scripts or other information given in these notes are intended for educational purposes only, and unauthorized use for malicious purposes is illegal and unethical._
+
 ***
 
 ## Subdomain 1.1
@@ -180,8 +182,9 @@ _Compare and contrast different types of social engineering techniques._
 
 #### Pretexting
 
-* A form of social engineering in which one dividual lies to obtain confidential data about another individual.
-* Actor is a character in a scenario they create - "Hello, this is account service with xyz. We want to confirm your banking information..."
+* A social engineering tactic that involves creating a false pretext or scenario to trick someone into divulging sensitive information.
+* Attacker would claim information is needed to rectify some issue - if a user or employee falls for the false pretext, they would unwittingly hand over their login credentials or personal information to the attacker who could then use them to gain unauthorized access to the company's network or sensitive data, or personal information to access a banking site or other service.
+* Actor is a character in a scenario they create - "Hello, this is account services with XYZ. We want to confirm your banking information..."
 
 #### Influence Campaigns
 _Usually nation-state actors that divide, distract, persuade and sway public opinion on political and social issues._
@@ -991,23 +994,38 @@ _The use of malware or scripts to exploit vulnerabilities in a system to gain un
 
 ##### PowerShell
 
+* PowersShell - Cross-platform task automation solution made up of command-line shell, a scripting language, and a configuration management framework that runs on Windows, Linux, and MacOS.
 * A way to extend command line functions and attack Windows systems including system administration, active domain administration, and file share access.
 
 ##### Python
 
-* 
+* Python -  general-purpose scripting language that is popular in many technologies to attack infrastructure such as routers, servers, and switches.
+* Example command to launch a DDoS attack using SimpleDDoS:
+
+  ```python
+  python dds.py <target_ip> <target_port> [-t <threads>] [-p <packets>]
+  ```
+
+Replace `<target_ip>` with the IP address of the target server, `<target_port>` with the port number, and `<threads>` and `<packets>` with the desired number of threads and packets, respectively.
+
+Note: [GitHub](https://github.com/SSL-ACTX/SimpleDDoS) provides more information about SimpleDDoS.
 
 ##### Bash
 
-* 
+* Bash - A Unix shell and command language that provides a command-line interface for interacting with the operating system and executing commands, scripts, and programs.
+* Generating scripting within the Unix/Linux shell to attack environments including web, database, virtualization servers as well as the ability to control the OS from the command line.
+* One way to check for DDoS attacks on a Linux server is by monitoring the server's load using the `uptime` command - it displays the average load over one minute, five minutes, and fifteen minutes. A load that equals or is bigger than the number of threads may suggest a suspiciously high activity.
+* You can check the number of threads available on your server by using the following command: `grep processor /proc/cpuinfo | wc -1`.
 
 ##### Macros
 
-* 
+* Macros - A way to automate functions within an application or OS.
+* Can be exploited to create security vulnerabilities - they just need a user to open this file and accept the macro prompt.
 
 ##### Visual Basic for Applications (VBA)
 
-* 
+* VBA - Normally a way to automate processes within Windows applications and common in Microsoft Office. It is a powerful programming language that interacts with the operating system. 
+* It can be used to infect computers by running arbitrary code embedded in a document.
 
 ***
 
@@ -1017,6 +1035,219 @@ _The use of malware or scripts to exploit vulnerabilities in a system to gain un
 _Explain different threat actors, vectors, and intelligence sources._
 
 <img class="subdo-img" src="../assets/images/1.5/img1.png" width="250" height="auto">
+
+#### Actors and threats
+
+__
+
+##### Advanced Persistent Threat (APT)
+
+* 
+
+##### Insider threats
+
+* 
+
+##### State actors
+
+* 
+
+##### Hacktivists
+
+* 
+
+##### Script kiddies
+
+* 
+
+##### Criminal Syndicates
+
+* 
+
+##### Hackers
+
+* 
+
+###### Authorized
+
+* 
+
+###### Unauthorized
+
+* 
+
+###### Semi-authorized
+
+* 
+
+##### Shadow IT
+
+* 
+
+##### Competitors
+
+* 
+
+#### Attributes of actors
+
+__
+
+##### Internal/external
+
+* 
+
+##### Level of sophistication/capability
+
+* 
+
+##### Resources/funding
+
+* 
+
+##### Intent/motivation
+
+* 
+
+#### Vectors
+
+
+__
+
+##### Direct access
+
+* 
+
+##### Wireless
+
+* 
+
+##### Email
+
+* 
+
+##### Supply chain
+
+* 
+
+##### Social media
+
+* 
+
+##### Removable media
+
+* 
+
+##### Cloud
+
+* 
+
+#### Threat intelligence sources
+
+__
+
+##### Open-source intelligence (OSINT)
+
+* 
+
+##### Closed/proprietary
+
+* 
+
+##### Vulnerability databases
+
+* 
+
+##### Public/private information-sharing centers
+
+* 
+
+##### Dark web
+
+* 
+
+##### Indicators of compromise
+
+* 
+
+##### Automated Indicator Sharing (AIS)
+
+* 
+
+###### Structured Threat Information eXpression (STIX)/Trusted Automated eXchange of Intelligence Information (TAXII)
+
+* 
+
+##### Predictive analysis
+
+* 
+
+##### Threat maps
+
+* 
+
+##### File/code repositories
+
+* 
+
+#### Research sources
+
+* 
+
+##### Vendor websites
+
+* 
+
+##### Vulnerability feeds
+
+* 
+
+##### Conferences
+
+* 
+
+##### Academic journals
+
+* 
+
+##### Request for comments (RFC)
+
+* 
+
+##### Local industry groups
+
+* 
+
+##### Social media
+
+* 
+
+##### Threat feeds
+
+* 
+
+##### Adversary tactics, techniques, and procedures (TTP)
+
+* 
+
+***
+
+## Subdomain 1.6
+###### [Back to Top](#top)
+
+_Explain the security concerns associated with various types of vulnerabilities._
+
+***
+
+## Subdomain 1.7
+###### [Back to Top](#top)
+
+_Summarize the techniques used in security assessments._
+
+***
+
+## Subdomain 1.8
+###### [Back to Top](#top)
+_Explain the techniques used in penetration testing._
 
 ***
 
