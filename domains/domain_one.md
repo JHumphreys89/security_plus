@@ -1075,47 +1075,53 @@ _An **actor** is an entity that performs actions on a system or network. Actors 
 
 ##### Criminal Syndicates
 
-* 
+* Professional criminals, motivated by money and very sophisticated.
+* Organized - One person attacks, one person manages the exploits, another person sells the data, another handles customer support.
+* They have lots of capital to fund hacking efforts.
 
-##### Hackers
+#### Hackers
 
-* 
+_An inidividual who exploits vulnerabilities in computer systems, networks, or firewalls to gain unauthorized access. It is important to note that there are different types of hacking._
 
 ###### Authorized
 
-* 
+* An **ethical** hacker with good intents and **permission** to attack
 
 ###### Unauthorized
 
-* 
+* A hacker who is **malicious** in nature and **violates security** for personal gain.
 
 ###### Semi-authorized
 
-* 
+* A hacker that may find a vulnerability but **doesn't use it**.
 
 ##### Shadow IT
 
-* 
+* Use of IT systems, devices, software, applications, or services without the explicit approval of the IT department.
+* Examples include meeting on Skype when the company uses WebEx, starting a group Slack without IT approval, or sharing work files on a personal Dropbox account or thumb drive.
 
 ##### Competitors
 
-* 
+* A company with a similar product(s) and target similar customers that use a high level of sophistication to potentially harm the reputation, commit espionage on or DoS on one of of it's rivals.
 
 #### Attributes of actors
 
-__
+_Some attributes that distinguish the different types of threat actors include their level of sophistication, resources, motiviation, funding, among others._
 
 ##### Internal/external
 
-* 
+* Internal - Trusted insiders that have permissions to be on the organizations network and information systems. These users have authorized access to information and systems.
+* External - Actors that come from outside the organization and do not have authorized access to the organizations informations systems, data, or physical resources and spaces.
 
 ##### Level of sophistication/capability
 
-* 
+* An important factor in the determination of the risk of threat actors.
+* Highly sophisticated threat actors are more likely to be successful if an attack is launched. Can include nation-state actors, organized crime, etc.
+* Less sophisticated attackers have a lower probability of an attack being successful should it be launched. Can include script kiddies, etc.
 
 ##### Resources/funding
 
-* 
+* These attributes determine how well a threat actor is able to support the attack monetarily or with the needed equipment and software.
 
 ##### Intent/motivation
 
