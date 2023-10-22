@@ -1125,36 +1125,45 @@ _Some attributes that distinguish the different types of threat actors include t
 
 ##### Intent/motivation
 
-* 
+* An important factor in a successful attack against an organization.
+* Highly motivated threat actors are more likely to actually launch an attack against an organization while less motivated actors may prepare but never launch the attack.
+* The intent or motivation of an actor may be tied to the political, ideological or personal goals of the attacker.
 
 #### Vectors
 
-
-__
+_Refer to the methods that attackers use to gain unauthorized access to a computer system or network. Can be classified into various categories such as direct access, wireless, email, supply chain, and many others._
 
 ##### Direct access
 
-* 
+* Attack vectors that are available to an attacker who has direct access to the hardware that is running an operating system.
+* If an attacker has physical access to the system, they can find a wayinto the operating system and have a lot of attack vectors avilable to them.
+* Examples: attaching a keylogger to a keyboard, connecting a flash drive or other type of portal media to copy files from a server that can be taken outside of the building.
 
 ##### Wireless
 
-* 
+* Refer to attack vectors that are available to an attacker on wireless networks.
+* Examples would include gathering default login credentials to modify AP configuration, setting up a rogue access point or evil twin.
 
 ##### Email
 
-* 
+* Refer to attack vectors that are available to an attacker through email.
+* This is traditionally a successful attack vector for threat actors because so many people have an email account.
+* A common threat actor in an email might be an embedded link or an attached file. Link/file is malicious and will allow the actor to access the computer.
 
 ##### Supply chain
 
-* 
+* Attack vectors that are available to an attacker via supply chain vulnerabilities.
+* Examples would be gaining access to a network using a vendor, using malware to modify the manufacturing process, counterfeit network equipment to install backdoors or provide substandard performance, etc.
 
 ##### Social media
 
-* 
+* Attack vectors that are available to an attacker through means of social media.
+* Attackers can use your profile data to tell where you are or have been, your age/DOB, create a fake friend account and a request to the victim to gather even more details.
 
 ##### Removable media
 
-* 
+* Attack vectors that are available to an attacker through removable media.
+* They can contain malicious software and can exfiltrate data.
 
 ##### Cloud
 
