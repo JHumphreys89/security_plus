@@ -1081,7 +1081,7 @@ _An **actor** is an entity that performs actions on a system or network. Actors 
 
 #### Hackers
 
-_An inidividual who exploits vulnerabilities in computer systems, networks, or firewalls to gain unauthorized access. It is important to note that there are different types of hacking._
+_An individual who exploits vulnerabilities in computer systems, networks, or firewalls to gain unauthorized access. It is important to note that there are different types of hacking._
 
 ###### Authorized
 
@@ -1106,7 +1106,9 @@ _An inidividual who exploits vulnerabilities in computer systems, networks, or f
 
 #### Attributes of actors
 
-_Some attributes that distinguish the different types of threat actors include their level of sophistication, resources, motiviation, funding, among others._
+_Some attributes that distinguish the different types of threat actors include their level of sophistication, resources, motivation, funding, among others._
+
+<img class="subdo-img" src="../assets/images/1.5/img6.png" width="250" height="auto">
 
 ##### Internal/external
 
@@ -1133,10 +1135,12 @@ _Some attributes that distinguish the different types of threat actors include t
 
 _Refer to the methods that attackers use to gain unauthorized access to a computer system or network. Can be classified into various categories such as direct access, wireless, email, supply chain, and many others._
 
+<img class="subdo-img" src="../assets/images/1.5/img7.png" width="250" height="auto">
+
 ##### Direct access
 
 * Attack vectors that are available to an attacker who has direct access to the hardware that is running an operating system.
-* If an attacker has physical access to the system, they can find a wayinto the operating system and have a lot of attack vectors avilable to them.
+* If an attacker has physical access to the system, they can find a way into the operating system and have a lot of attack vectors available to them.
 * Examples: attaching a keylogger to a keyboard, connecting a flash drive or other type of portal media to copy files from a server that can be taken outside of the building.
 
 ##### Wireless
@@ -1167,55 +1171,77 @@ _Refer to the methods that attackers use to gain unauthorized access to a comput
 
 ##### Cloud
 
-* 
+* Attack vectors that are available in the cloud. With publicly facing applications and services, mistakes are made all the time.
+* Some attack examples can include exploiting security misconfigurations, brute force attacking accounts or phish the users of the cloud service, perform orchestration attacks, or perform DoS attacks to disable cloud services for everyone.
 
 #### Threat intelligence sources
 
-__
+_Are a crucial component of cybersecurity. They provide information about potential threats and vulnerabilities that can be used to prevent attacks._
+
+<img class="subdo-img" src="../assets/images/1.5/img8.png" width="250" height="auto">
 
 ##### Open-source intelligence (OSINT)
 
-* 
+* Methods of obtaining information about a person or organization through public records, websites, and social media.
 
 ##### Closed/proprietary
 
-* 
+* Threat data that are collected and analyzed by private companies or organizations, such as security vendors, industry groups, or research institutes.
+* They may offer their threat intelligence as a service or a platform to their customers or partners, who can use it to enhance their own security posture and response.
+* Some free to premium examples include [PhishTank](https://phishtank.org/), [DocGuard](https://www.docguard.io/), and [AlienVault Open Threat Exchange](https://otx.alienvault.com/).
 
 ##### Vulnerability databases
 
-* 
+* A platform that collects and provides information about security flaws in software. It can help identify, access, and mitigate vulnerabilities in systems.
+* Some examples of these databases are the [US National Vulnerability Database](https://nvd.nist.gov/) and [Common Vulnerabilities and Exposures](https://www.cve.org/).
 
 ##### Public/private information-sharing centers
 
-* 
+* Non-profit organizations that provide a central resource for gathering and sharing information on cyber threats between the private and public sector.
+* For example, [Cyber Threat Alliance (CTA)](https://www.cyberthreatalliance.org/) is where members upload specifically formatted threat intelligence. CTA scores each submission and validates across other submissions. Other members can extract the validated data.
 
 ##### Dark web
 
-* 
+* Content not indexed by search engines.
+* Are overlay networks that use the internet. Usually requires specific software, specific configuration, or authorization to access.
+* Provide hacking groups and services.
+* Can include forums to see targeted company or executive names.
 
 ##### Indicators of compromise
 
-* 
+* Clues that suggest a system or network has been breached or infected by malware.
+* They can be file-based, network-based, or behavioral.
+* Some examples are unusual outbound network traffic, anomalies in privileged user account activity, mismatched port-application traffic, or swells in database read volume.
 
 ##### Automated Indicator Sharing (AIS)
 
-* 
+* A service that enables real-time exchange of machine-readable cyber threat indicators and defensive measures between public and private-sector organizations.
+* It is a way of staying proactive with respect to cybersecurity.
 
-###### Structured Threat Information eXpression (STIX)/Trusted Automated eXchange of Intelligence Information (TAXII)
+###### Structured Threat Information eXpression (STIX)
 
-* 
+* Describes cyber threat information.
+* Includes motivations, abilities, capabilities, and response information.
+* Document describing STIX - [MITRE](https://www.mitre.org/sites/default/files/publications/stix.pdf).
+
+###### Trusted Automated eXchange of Intelligence Information (TAXII)
+
+* Securely shares STIX data.
+* Use cases include public alerts or warnings, private alerts and reports, push and pull content dissemination, and set-up and management of data sharing between parties.
 
 ##### Predictive analysis
 
-* 
+* Analyzes large amounts of data to identify behaviors (DNS queries, traffic patterns, location data, etc.) and creates a forecast for potential attacks - an early warning system.
+* Often combined with machine learning - less emphasis on signatures.
 
 ##### Threat maps
 
-* 
+* A visualization of real-life cyberattacks happening in real-time and show the level of severity, location and nature of the attack. They can be valuable to help a security team make connections and predictions on future attacks.
 
 ##### File/code repositories
 
-* 
+* Online platforms that allow developers to store, manage, and share their code. Can see what hackers are building, see what people may be accidently releasing.
+* Examples may include [GitHub](github.com), [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/product), and [SourceForge](https://sourceforge.net/).
 
 #### Research sources
 
