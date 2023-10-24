@@ -1220,6 +1220,8 @@ _Are a crucial component of cybersecurity. They provide information about potent
 
 ###### Structured Threat Information eXpression (STIX)
 
+<img class="subdo-img" src="../assets/images/1.5/img9.png" width="250" height="auto">
+
 * Describes cyber threat information.
 * Includes motivations, abilities, capabilities, and response information.
 * Document describing STIX - [MITRE](https://www.mitre.org/sites/default/files/publications/stix.pdf).
@@ -1240,6 +1242,8 @@ _Are a crucial component of cybersecurity. They provide information about potent
 
 ##### File/code repositories
 
+<img class="subdo-img" src="../assets/images/1.5/img10.png" width="250" height="auto">
+
 * Online platforms that allow developers to store, manage, and share their code. Can see what hackers are building, see what people may be accidently releasing.
 * Examples may include [GitHub](github.com), [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/product), and [SourceForge](https://sourceforge.net/).
 
@@ -1255,9 +1259,11 @@ _Researching and understanding potential threats is an ongoing part of any secur
 
 ##### Vulnerability feeds
 
+<img class="subdo-img" src="../assets/images/1.5/img11.png" width="250" height="auto">
+
 * A source of information about security vulnerabilities that affect software, hardware, or networks.
 * They can help you stay updated on the latest threats and patches, and plan your security strategy accordingly.
-* Some examples are the [National Vulnerability Database](https://nvd.nist.gov/), CVE data feeds.
+* Some examples are the [National Vulnerability Database](https://nvd.nist.gov/), [CVE data feeds](https://nvd.nist.gov/vuln/data-feeds).
 
 ##### Conferences
 
@@ -1267,7 +1273,10 @@ _Researching and understanding potential threats is an ongoing part of any secur
 
 ##### Academic journals
 
+<img class="subdo-img" src="../assets/images/1.5/img12.png" width="250" height="auto">
+
 * Research from academic professionals using cutting edge security analysis, evaluations of existing security technologies - keeping up with the latest attack methods, detailed postmortem; tear apart the latest malware and see what makes them tick, extremely detailed information.
+* Example: [IEEE Transactions on Information Forensics and Security](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206)
 
 ##### Request for comments (RFC)
 
@@ -1277,19 +1286,34 @@ _Researching and understanding potential threats is an ongoing part of any secur
 
 ##### Local industry groups
 
-* 
+<img class="subdo-img" src="../assets/images/1.5/img13.png" width="250" height="auto">
+
+* A gathering of local peers with shared industry and technology along with geographical presence.
+* May include associations like the [Information Systems Security Association](https://www.issa.org/), [Network Professional Association](https://www.npa.org/npa-home.cfm) where you can meet others in the area and discuss local challenges.
+* Can also include industry user groups such as Cisco, Microsoft, VMWare, etc.
 
 ##### Social media
 
-* 
+* Using social media channels to monitor hacking group conversations, use keyword monitoring, analysis of vulnerabilities such as professionals discussing details.
+* Can also be used for command and control - use social media as the transport.
 
 ##### Threat feeds
 
-* 
+* Collection of data from a variety of sources that can help bolster your SIEM security.
+* They are continuous data streams filled with threat information collected by AI.
+* Any cybersecurity risk data that organizations can use to better understand their overall threat landscape is considered threat intelligence. Most feeds focus on one area of interest, such as domains, malicious IP addresses, or botnet activity.
+* Many are [freely available](https://otx.alienvault.com/browse/global/pulses?include_inactive=0&sort=-modified&page=1&limit=10); others require [paid subscriptions](https://www.mandiant.com/advantage/threat-intelligence).
 
 ##### Adversary tactics, techniques, and procedures (TTP)
 
-* 
+* Describe real-world adversary behavior and tactics.
+* Tactics best describe the adversary objectives and provide a high-level notation of an operation.
+* Techniques describe the non-specific guidelines and intermediate methods that describe how a tactic action can be realized.
+* Procedures refer to the sequence of actions performed using a technique to execute on an attack tactic
+* Different types:
+  * Information on targeted systems (finance, energy companies)
+  * Infrastructure used by attackers (DNS and IP addresses)
+  * Outbreak of a particular malware variant on a service type
 
 ***
 
@@ -1297,6 +1321,141 @@ _Researching and understanding potential threats is an ongoing part of any secur
 ###### [Back to Top](#top)
 
 _Explain the security concerns associated with various types of vulnerabilities._
+
+<img class="subdo-img" src="../assets/images/1.6/img1.png" width="250" height="auto">
+
+#### Cloud-based vs. on-premises vulnerabilities
+
+* Cloud-based vulnerabilities include misconfigured cloud storage, insecure APIs, compliance violations and regulatory actions, poor access management, and lack of authentication methods, etc. Hardware related vulnerabilities are handled by the cloud provider.
+* On-premises is operated by the business unlike cloud-operated hardware so on-premises vulnerabilities include physical theft or damage to equipment, also phishing and malware among others.
+
+#### Zero-day
+
+* A vulnerability that has not been detected or published - flaws or holes in software.
+* Term "zero-day" refers to the face that the software developers has zero days to fix the issue because it becomes known and potentially exploitable as soon as it's discovered. Makes them particularly dangerous because there is no time to release a patch or update before potential attackers can take advantage of it. 
+* Can lead to unauthorized access, data theft, or other forms of cyberattacks.
+* Can exist in operating systems, applications, or other types of software.
+
+#### Weak configurations
+
+_Concerns referring to issues that arise from improperly configured systems, applications, or networks, which can lead to security vulnerabilities. Can potentially be exploited by malicious actors to gain unauthorized access, steal data, disrupt services, or carry out other malicious activities._
+
+##### Open permissions
+
+* Vulnerability type where information has been put onto the internet, but no security has been applied to that data.
+* Attackers don't need to find a hidden vulnerability that is inside of software, instead they wait for you to leave the door open, and they simply walk into that open door.
+
+##### Unsecure root accounts
+
+* Refer to the root account in Linux and the admin account in Windows that have weak passwords or no passwords at all.
+* These accounts can be used by attackers to gain access to sensitive data and systems.
+
+##### Errors
+
+* Messages of this type of weak configuration can provide useful information to an attacker: service type, version information, debug data, etc.
+
+##### Weak encryption
+
+* A vulnerability that occurs when encryption is relatively easy or simple to decrypt without the encryption key.
+* It is important to ensure that encryption is strong enough to protect sensitive data/
+
+##### Unsecure protocols
+
+* Protocols that are not encrypted - all data is sent in the clear  (Telnet, FTP, SMTP, IMAP)
+* Can verify with a packet capture and view everything sent over the network.
+* Can make sure to use encrypted versions of protocols such as SSH, SFTP, IMAPS,etc.
+
+##### Default settings
+
+* Security settings that are applied to a system when it is first installed or configured.
+* These settings are designed to provide a basic level of security for the system but can be easily exploited.
+
+##### Open ports and services
+
+* Are network ports that are used by services to communicate with other devices on the network. They are used to allow traffic into and out of a network.
+* They can become dangerous when services running on these ports are misconfigured, vulnerable, or unpatched.
+
+#### Third-party risks
+
+_Potential threats presented to an organization from outside parties. These risks can come from third-party vendors, business partners, or other external entities that have access to an organization's systems or data. Examples include vendor management, system integration, lack of vendor support, supply chain, and more._
+
+##### Vendor management
+
+* Are security weaknesses that can be exploited by attackers in the vendor management process.
+* These vulnerabilities can be in the vendor's software, hardware, or network infrastructure.
+* Vendor management vulnerabilities can lead to data breaches, unauthorized access to sensitive information, and other security incidents.
+* To mitigate these risks, companies should implement a vendor risk management program that includes regular assessments of vendor's security posture and continuous monitoring of their activities.
+
+###### System integration
+
+* The process of combining different systems into one comprehensive system.
+* Can be onsite with physical and virtual access to data and systems - 
+
+###### Lack of vendor support
+
+* 
+
+##### Supply chain
+
+* 
+
+##### Outsourced code development
+
+* 
+
+##### Data storage
+
+* 
+
+#### Improper or weak patch management
+
+__ 
+
+##### Firmware
+
+* 
+
+##### Operating systems (OS)
+
+* 
+
+##### Applications
+
+* 
+
+#### Legacy platforms
+
+* 
+
+#### Impacts
+
+__
+
+##### Data loss
+
+* 
+
+##### Data breaches
+
+* 
+
+##### Data exfiltration
+
+* 
+
+##### Identity theft
+
+* 
+
+##### Financial
+
+* 
+
+##### Reputation
+
+* 
+
+##### Availability loss
 
 ***
 
