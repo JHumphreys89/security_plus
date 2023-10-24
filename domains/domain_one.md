@@ -1245,27 +1245,35 @@ _Are a crucial component of cybersecurity. They provide information about potent
 
 #### Research sources
 
-* 
+_Researching and understanding potential threats is an ongoing part of any security professional's job. There are several sources that can be used to gather information about potential threats including vendor websites, vulnerability feeds, academic journals and RFCs._
 
 ##### Vendor websites
 
-* 
+* Are a type of research source that can be used to gather information about potential threats.
+* These websites are usually maintained by the companies that produce software or hardware that is being used.
+* They are a great resource for learning about vulnerabilities and other security issues that may be present in their products and they often have a page dedicated to tracking them down. They also offer some type of notification process to inform users when new vulnerabilities are discovered.
 
 ##### Vulnerability feeds
 
-* 
+* A source of information about security vulnerabilities that affect software, hardware, or networks.
+* They can help you stay updated on the latest threats and patches, and plan your security strategy accordingly.
+* Some examples are the [National Vulnerability Database](https://nvd.nist.gov/), CVE data feeds.
 
 ##### Conferences
 
-* 
+* Events where experts and researchers present their latest findings on insights of various topics related to security.
+* Can include new DDoS methods, intelligence gathering, and hacking the latest technologies.
+* Can build relationships and forge alliances with other members of the security community.
 
 ##### Academic journals
 
-* 
+* Research from academic professionals using cutting edge security analysis, evaluations of existing security technologies - keeping up with the latest attack methods, detailed postmortem; tear apart the latest malware and see what makes them tick, extremely detailed information.
 
 ##### Request for comments (RFC)
 
-* 
+* A formal standards-track document developed in working groups within the [Internet Engineering Task Force (IETF)](https://www.ietf.org/standards/rfcs/). The process is for all PCI Security Standards - both new standards under development and existing standards subject to revision. 
+* They are opportunities for PCI SSC stakeholders to provide feedback on existing and new PCI Security Standards.
+* [RFC Index](https://www.rfc-editor.org/rfc-index-100a.html)
 
 ##### Local industry groups
 
