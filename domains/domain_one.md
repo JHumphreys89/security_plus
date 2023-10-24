@@ -1389,31 +1389,42 @@ _Potential threats presented to an organization from outside parties. These risk
 ###### System integration
 
 * The process of combining different systems into one comprehensive system.
-* Can be onsite with physical and virtual access to data and systems - 
+* Can be onsite with physical and virtual access to data and systems - keylogger installations and USB flash drive data transfers as well as elevated OS access being a potential risk.
+* Can also run software on the internal network where there is generally less security on the inside. Can inject malware and spyware - sometimes inadvertently.
 
 ###### Lack of vendor support
 
-* 
+* Vendors may come out with replacement or stop providing updates for certain services or applications.
+* Lack of patches can cause security issues as vendors are the only ones who can fix their product.
 
 ##### Supply chain
 
-* 
+* Refer to weaknesses in the supply chain that can be exploited by attackers to gain unauthorized access to sensitive information, disrupt operations, or steal valuable assets.
+* These vulnerabilities can arise from a variety of resources, including third-party suppliers, software and hardware components, and internal processes.
 
 ##### Outsourced code development
 
-* 
+* Can introduce additional security risks to an organization. Third-party vendors may not have the same level of security controls in place as the organization itself, which can lead to vulnerabilities in the code.
+* Can include system integration risk, lack of vendor support, and data storage risks.
+* It is important to assess this code before and after implementation by following secure coding practices.
+* Ensure development systems are isolated and test for code security to check for backdoors and validate data protection and encryption.
 
 ##### Data storage
 
-* 
+* These vulnerabilities are a critical concern for organizations as they can lead to data breaches and other security incidents.
+* When handling data, consider its type - contact information, healthcare details, financial information.
+* Storage at a third-party may need encryption to limit exposure and add complexity.
+* When transferring data, the entire data flow needs to be encrypted.
 
 #### Improper or weak patch management
 
-__ 
+_Can lead to vulnerabilities in third-party software that is used by an organization. If the third-party software has a vulnerability that is not patched, it can be exploited by attackers to gain access to the organizations systems._ 
 
 ##### Firmware
 
-* 
+* Can be exploited by attackers to gain access to devices or steal information.
+* Unpatched firmware may allow an attacker to exploit publicly known vulnerabilities to gain access to sensitive information, launch a DoS attack, or take control of a system.
+* To mitigate these risks, it is important to follow best practices for firmware security. These include keeping firmware up to date with the latest patches and updates, using secure boot processes, and implementing secure coding practices.
 
 ##### Operating systems (OS)
 
