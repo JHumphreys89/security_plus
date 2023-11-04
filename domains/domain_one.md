@@ -541,7 +541,7 @@ _Given a scenario, analyze potential indicators associated with application atta
      <p>Status: All is well.</p>
      ```
      
-  3. An attack can craft a URL that includes malicious JavaScript code in the message parameter, which will be executed by the victim's broswer when they visit the URL
+  3. An attack can craft a URL that includes malicious JavaScript code in the message parameter, which will be executed by the victim's browser when they visit the URL
 
 #### Injections
 
@@ -707,7 +707,7 @@ int main(int argc, char **argv) {
 
 #### Race conditions
 
-* A situation that occurs when two or more threads or processes access shared data and try to modify it at the same time, leading to unexecpted results.
+* A situation that occurs when two or more threads or processes access shared data and try to modify it at the same time, leading to unexpected results.
 * It is a common problem in multithread applications and multi-process systems.
 * Suppose we have two threads, **Thread 1** and **Thread 2**, that are trying to access a shared variable **x**. **Thread 1** is responsible for setting the value of **x** to **10**, while **Thread 2** is responsible for printing the value of **x**. The following code snippet shows how this can be done:
 
@@ -1428,10 +1428,12 @@ _Can lead to vulnerabilities in third-party software that is used by an organiza
 
 ##### Operating systems (OS)
 
-* 
+* When patches are not applied regularly to the OS, the system remains vulnerable to known exploits that can be used by attackers to gain unauthorized access to the system. This can lead to data breaches, loss of sensitive information, and even completely system compromise.
+* Can also lead to the introduction to new vulnerabilities in the system. For example, if a patch is not tested properly before deployment, it can cause compatibility issues with other software or hardware components in the system which can lead to crashes, instability and even security vulnerabilities.
 
 ##### Applications
 
+* Provider by the manufacturer as needed.
 * 
 
 #### Legacy platforms
