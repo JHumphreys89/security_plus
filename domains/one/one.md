@@ -224,7 +224,9 @@ _Principles of Social Engineering and their reasons for effectiveness._
 ***
 
 # Demonstrate Your Understanding
+
+<p style="text-align:center;">
 ###### [Back to Top](#top) **>>** [Study in a New Tab](../../resources/study_cards/sub_one_one.html){:target="_blank"}
-_Click or tap on 'Choose a Study Mode' to switch between flash cards, match, learn, test and more._
+_Click or tap on 'Choose a Study Mode' to switch between flash cards, match, learn, test and more._</p>
 
 <iframe src="https://quizlet.com/814299020/flashcards/embed?i=35mna1&x=1jj1" height="500" width="100%" style="border:0"></iframe>
