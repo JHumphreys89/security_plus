@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Back to Home](../index.html)
+[Back to Home](.../index.html)
 
 # Subdomain 1.1
 
