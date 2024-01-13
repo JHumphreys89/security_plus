@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<p align="center">
+<p style="text-align:center;">
 [Back to Home](../../index.html) ☷ [Back to Domain One](../domain_one.html)
 </p>
 
