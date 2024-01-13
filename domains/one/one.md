@@ -3,7 +3,7 @@ layout: default
 ---
 
 <p style="text-align:center;">
-<a href="../../index.html">Back to Home</a> ○ <a href="../domain_one.html">Back to Domain One</a>
+<a href="../../index.html">Back to Home</a> ♦ <a href="../domain_one.html">Back to Domain One</a>
 </p>
 
 # Subdomain 1.1
@@ -226,7 +226,7 @@ _Principles of Social Engineering and their reasons for effectiveness._
 # Demonstrate Your Understanding
 
 <p style="text-align:center;">
-<a href="#top">Back to Top</a> ○ <a href="../../resources/study_cards/sub_one_one.html" target="_blank">Study in a New Tab</a></p>
+<a href="#top">Back to Top</a> ♦ <a href="../../resources/study_cards/sub_one_one.html" target="_blank">Study in a New Tab</a></p>
 
 _Click or tap on 'Choose a Study Mode' to switch between flash cards, match, learn, test and more._
 

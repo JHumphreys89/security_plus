@@ -3,12 +3,16 @@ layout: default
 ---
 
 <p style="text-align:center;">
-<a href="../../index.html">Back to Home</a> ○ <a href="../domain_one.html">Back to Domain One</a>
+<a href="../../index.html">Back to Home</a> ♦ <a href="../domain_one.html">Back to Domain One</a>
 </p>
 
 # Subdomain 1.2
 
 _Given a scenario, analyze potential indicators to determine the type of attack._
+
+_Terms_: 34
+
+***
 
 <img class="subdo-img" src="../../assets/images/1.2/img1.png" width="250" height="auto">
 
@@ -275,7 +279,7 @@ _You now have encrypted the data and sent it to another person - is it secure? T
 # Demonstrate Your Understanding
 
 <p style="text-align:center;">
-<a href="#top">Back to Top</a> ○ <a href="../../resources/study_cards/sub_one_two.html" target="_blank">Study in a New Tab</a></p>
+<a href="#top">Back to Top</a> ♦ <a href="../../resources/study_cards/sub_one_two.html" target="_blank">Study in a New Tab</a></p>
 
 _Click or tap on 'Choose a Study Mode' to switch between flash cards, match, learn, test and more._
 

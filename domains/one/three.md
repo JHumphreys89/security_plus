@@ -3,12 +3,16 @@ layout: default
 ---
 
 <p style="text-align:center;">
-<a href="../../index.html">Back to Home</a> ○ <a href="../domain_one.html">Back to Domain One</a>
+<a href="../../index.html">Back to Home</a> ♦ <a href="../domain_one.html">Back to Domain One</a>
 </p>
 
 # Subdomain 1.3
 
 _Given a scenario, analyze potential indicators associated with application attacks._
+
+_Terms_: 24
+
+***
 
 <img class="subdo-img" src="../assets/images/1.3/img1.png" width="250" height="auto">
 
@@ -341,7 +345,7 @@ _Security threats that involve altering system drivers to achieve a malicious ou
 # Demonstrate Your Understanding
 
 <p style="text-align:center;">
-<a href="#top">Back to Top</a> ○ <a href="../../resources/study_cards/sub_one_three.html" target="_blank">Study in a New Tab</a></p>
+<a href="#top">Back to Top</a> ♦ <a href="../../resources/study_cards/sub_one_three.html" target="_blank">Study in a New Tab</a></p>
 
 _Click or tap on 'Choose a Study Mode' to switch between flash cards, match, learn, test and more._
 
