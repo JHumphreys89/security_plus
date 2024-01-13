@@ -2,7 +2,9 @@
 layout: default
 ---
 
+<p align="center">
 [Back to Home](../../index.html) ☷ [Back to Domain One](../domain_one.html)
+</p>
 
 # Subdomain 1.2
 
@@ -267,6 +269,8 @@ _You now have encrypted the data and sent it to another person - is it secure? T
 
 * An attack that forces a system to rollback it's security in order to carry out an exploit.
 * An [example of this flaw was](https://en.wikipedia.org/wiki/Downgrade_attack) found in OpenSSL that allowed the attacker to negotiate down to a lower version of TLS between the client and server. This is the is on of the most common types of downgrade attacks.
+
+***
 
 # Demonstrate Your Understanding
 ##### [Back to Top](#top)
