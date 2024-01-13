@@ -8,9 +8,9 @@ layout: default
 
 # Subdomain 1.1
 
-**Compare and contrast different types of social engineering techniques.**
+_Compare and contrast different types of social engineering techniques._
 
-**The act of gathering info on an attack by taking advantage of the weakest part of security: _people_.**
+_The act of gathering info on an attack by taking advantage of the weakest part of security: **people**._
 
 _Terms_: 32
 
