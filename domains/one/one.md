@@ -3,7 +3,7 @@ layout: default
 ---
 
 <p style="text-align:center;">
-[Back to Home](../../index.html) ☷ [Back to Domain One](../domain_one.html)
+<a href="../../index.html">Back to Home</a> ☷ <a href="../domain_one.html">Back to Domain One</a>
 </p>
 
 # Subdomain 1.1
@@ -226,7 +226,7 @@ _Principles of Social Engineering and their reasons for effectiveness._
 # Demonstrate Your Understanding
 
 <p style="text-align:center;">
-###### [Back to Top](#top) **>>** [Study in a New Tab](../../resources/study_cards/sub_one_one.html){:target="_blank"}
+<a href="#top">Back to Top</a> **>>** <a href="../../resources/study_cards/sub_one_one.html" target="_blank">Study in a New Tab</a>
 _Click or tap on 'Choose a Study Mode' to switch between flash cards, match, learn, test and more._</p>
 
 <iframe src="https://quizlet.com/814299020/flashcards/embed?i=35mna1&x=1jj1" height="500" width="100%" style="border:0"></iframe>
