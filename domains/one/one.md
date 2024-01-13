@@ -14,7 +14,7 @@ _Terms_: 32
 
 ***
 
-<img class="subdo-img" src="../assets/images/1.1/img1.png" width="250" height="auto">
+<img class="subdo-img" src=".../assets/images/1.1/img1.png" width="250" height="auto">
 
 #### Phishing
 
@@ -36,7 +36,7 @@ _Terms_: 32
 
 #### Spam
 
-<img class="subdo-img" src="../assets/images/1.1/img2.png" width="250" height="auto">
+<img class="subdo-img" src=".../assets/images/1.1/img2.png" width="250" height="auto">
 
 * A form of unsolicited messages in the form of email, forums, etc. with various content including commercial advertising, non-commercial proselytizing, and phishing attempts.
 
