@@ -179,7 +179,7 @@ _Usually nation-state actors that divide, distract, persuade and sway public opi
 
 * When a threat actor creates fake accounts, creates content on those fake accounts to seem legitimate, post on social media using these fake accounts, amplify message, real users share the message, and then mass media picks up the story.
 
-## Principles -reasons for effectiveness
+#### Principles -reasons for effectiveness
 _Principles of Social Engineering and their reasons for effectiveness._
 
 <img class="subdo-img" src="../../assets/images/1.1/img12.png" width="250" height="auto">
