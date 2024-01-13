@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Back to Home](.../index.html)
+[Back to Home](../index.html)
 
 # Subdomain 1.1
 
@@ -14,7 +14,7 @@ _Terms_: 32
 
 ***
 
-<img class="subdo-img" src=".../assets/images/1.1/img1.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img1.png" width="250" height="auto">
 
 #### Phishing
 
@@ -36,7 +36,7 @@ _Terms_: 32
 
 #### Spam
 
-<img class="subdo-img" src=".../assets/images/1.1/img2.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img2.png" width="250" height="auto">
 
 * A form of unsolicited messages in the form of email, forums, etc. with various content including commercial advertising, non-commercial proselytizing, and phishing attempts.
 
@@ -50,7 +50,7 @@ _Terms_: 32
 
 #### Dumpster diving
 
-<img class="subdo-img" src=".../assets/images/1.1/img3.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img3.png" width="250" height="auto">
 
 * Searching the garbage collection area or dustbin to look for non-shredded confidential documents
 * Timing can be important - End of month, end of quarter. Based on pickup schedule.
@@ -58,7 +58,7 @@ _Terms_: 32
 
 #### Shoulder surfing
 
-<img class="subdo-img" src=".../assets/images/1.1/img4.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img4.png" width="250" height="auto">
 
 * This is a social engineering attack in which the attackers obtain confidential information by looking over someone's shoulder to read what is on their computer screen or phone or to observe what they are typing.
 * Can be in public areas such as airports and coffee shops.
@@ -73,7 +73,7 @@ _Terms_: 32
 
 #### Tailgating
 
-<img class="subdo-img" src=".../assets/images/1.1/img5.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img5.png" width="250" height="auto">
 
 * Gaining unauthorized access to restricted areas by following another person.
 * Most security stops at the border so once inside, there is generally not much to stop the perpetrator.
@@ -95,7 +95,7 @@ _Terms_: 32
 * An attacker adds a term or phrase to the header of an email to enhance its effectiveness as a social engineering attack.
 * Example: `https://mmicrosoft.com`
 
-<img class="subdo-img" src=".../assets/images/1.1/img6.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img6.png" width="250" height="auto">
 
 #### Identity fraud
 
@@ -108,7 +108,7 @@ _Terms_: 32
 
 #### Invoice scams
 
-<img class="subdo-img" src=".../assets/images/1.1/img7.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img7.png" width="250" height="auto">
 
 * When an attacker sends a fake invoice to a business for something such as a domain renewal, toner cartridges, etc., and states the invoice is from the CEO. The business may pay the invoice since it looks like it is coming from a legitimate source.
 * Invoice looks like a legitimate one requesting printing services, lawn work, etc.
@@ -122,7 +122,7 @@ _Terms_: 32
 
 #### Reconnaissance
 
-<img class="subdo-img" src=".../assets/images/1.1/img8.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img8.png" width="250" height="auto">
 
 * Gathering information on a victim. Gathers background information to build a believable pretext.
 
@@ -136,7 +136,7 @@ _Terms_: 32
 
 #### Impersonation
 
-<img class="subdo-img" src=".../assets/images/1.1/img9.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img9.png" width="250" height="auto">
 
 * An attacker who pretends to be someone else in the hopes of eliciting Personally Identifiable Information (PII).
 * May use details gathered from reconnaissance - they know your place of work, bank, etc.
@@ -154,7 +154,7 @@ _Terms_: 32
 * A type of URL hijacking where there is a site with URLs that are slightly different from a legitimate source.
 * Example: `https://microsoftt.com`
 
-<img class="subdo-img" src=".../assets/images/1.1/img10.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img10.png" width="250" height="auto">
 
 #### Pretexting
 
@@ -165,7 +165,7 @@ _Terms_: 32
 #### Influence Campaigns
 _Usually nation-state actors that divide, distract, persuade and sway public opinion on political and social issues._
 
-<img class="subdo-img" src=".../assets/images/1.1/img11.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img11.png" width="250" height="auto">
 
 
 ##### Hybrid Warfare
@@ -180,7 +180,7 @@ _Usually nation-state actors that divide, distract, persuade and sway public opi
 ## Principles -reasons for effectiveness
 _Principles of Social Engineering and their reasons for effectiveness._
 
-<img class="subdo-img" src=".../assets/images/1.1/img12.png" width="250" height="auto">
+<img class="subdo-img" src="../assets/images/1.1/img12.png" width="250" height="auto">
 
 ##### Authority
 
