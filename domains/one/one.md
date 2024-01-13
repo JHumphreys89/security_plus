@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Back to Home](../../index.html) **|** [Back to Domain One](../domain_one.html)
+[Back to Home](../../index.html) ☷ [Back to Domain One](../domain_one.html)
 
 # Subdomain 1.1
 
