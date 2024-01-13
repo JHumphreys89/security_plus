@@ -14,7 +14,7 @@ _Terms_: 32
 
 ***
 
-<img class="subdo-img" src=".../assets/images/1.1/img1.png" width="250" height="auto">
+<img class="subdo-img" src="assets/images/1.1/img1.png" width="250" height="auto">
 
 #### Phishing
 
