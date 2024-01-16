@@ -16,10 +16,10 @@ layout: default
 
 ## Resources
 
-* COMPTIA - Exam Objectives Handout - [Download Here](./resources/comptia-security-sy0-601-exam-objectives.pdf)
-* COMPTIA - Acronyms List Handout - [Download Here](./resources/comptia-security-sy0-601-exam-acronym-list.pdf)
+* COMPTIA - Exam Objectives Handout - [Download Here](./resources/comptia-security-sy0-601-exam-objectives.pdf){:target="_blank"}
+* COMPTIA - Acronyms List Handout - [Download Here](./resources/comptia-security-sy0-601-exam-acronym-list.pdf){:target="_blank"}
 * QUIZLET - Tests, Flash Cards, and additional learning tools for all five Domains - [Open here](./resources/quizlet.html)
 
 ## Contribute
 
-If you would like to contribute to this repo, please let me know via [email](mailto:sec-github@jonhumphreys.com). You can also reach out to me through [LinkedIn](https://www.linkedin.com/in/jonehumphreys/).
+If you would like to contribute to this repo, please let me know via [email](mailto:sec-github@jonhumphreys.com). You can also reach out to me through [LinkedIn](https://www.linkedin.com/in/jonehumphreys/){:target="_blank"}.
