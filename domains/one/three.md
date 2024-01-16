@@ -3,7 +3,7 @@ layout: default
 ---
 
 <p style="text-align:center;">
-<a href="../../index.html">Back to Home</a> ♦ <a href="../domain_one.html">Back to Domain One</a>
+<a href="../../index.html">Back to Home</a> ♦ <a href="../../domain_one.html">Back to Domain One</a>
 </p>
 
 # Subdomain 1.3
@@ -14,7 +14,7 @@ _Terms_: 24
 
 ***
 
-<img class="subdo-img" src="../assets/images/1.3/img1.png" width="250" height="auto">
+<img class="subdo-img" src="../../assets/images/1.3/img1.png" width="250" height="auto">
 
 #### Privilege escalation
 
@@ -25,7 +25,7 @@ _Terms_: 24
 
 #### Cross-site scripting (XSS)
 
-<img class="subdo-img" src="../assets/images/1.3/img2.png" width="250" height="auto">
+<img class="subdo-img" src="../../assets/images/1.3/img2.png" width="250" height="auto">
 
 * XSS is an injection vulnerability that occurs when an attacker can insert unauthorized JavaScript, VBScript, HTML, or other active content into a webpage.
 * When other users view the page, the malicious code executes and affects or attacks the user.
@@ -44,7 +44,7 @@ _Terms_: 24
 
 _A process where an attacker supplies untrusted input to a program, which gets processed by an interpreter as part of a command or query._
 
-<img class="subdo-img" src="../assets/images/1.3/img3.png" width="250" height="auto">
+<img class="subdo-img" src="../../assets/images/1.3/img3.png" width="250" height="auto">
 
 ##### Structured query language (SQL)
 
@@ -160,7 +160,7 @@ _A process where an attacker supplies untrusted input to a program, which gets p
 
 #### Pointer/object deference
 
-<img class="subdo-img" src="../assets/images/1.3/img4.png" width="250" height="auto">
+<img class="subdo-img" src="../../assets/images/1.3/img4.png" width="250" height="auto">
 
 * A pointer is a variable that stores memory addresses of another variable.
 * A null pointer is a pointer that does not point to any memory location.
@@ -254,7 +254,7 @@ print(x);
 
 #### Replay attack
 
-<img class="subdo-img" src="../assets/images/1.3/img5.png" width="500" height="auto">
+<img class="subdo-img" src="../../assets/images/1.3/img5.png" width="500" height="auto">
 
 * An attack where an intruder records the communication between the user and a server, and later plays the recorded information back to impersonate the user. This is **NOT** an on-path attack as this does not require the original workstation.
 * Network tap, ARP poisoning, malware are some of the methods used to achieve this.
@@ -280,7 +280,7 @@ _A type of malicious exploit of a website or web application where unauthorized 
 
 ##### Cross-site
 
-<img class="subdo-img" src="../assets/images/1.3/img6.png" width="500" height="auto">
+<img class="subdo-img" src="../../assets/images/1.3/img6.png" width="500" height="auto">
 
 * One-click attack, session riding (XSRF, CRSF(see surf)). Takes advantage of the trust that a web application has for a user.
 * For instance, web site trusts your browser. Requests are made without your consent or your knowledge - attacker posts Facebook status on your account.
@@ -313,7 +313,7 @@ void g () {
 
 #### Secure Sockets Layer (SSL) stripping
 
-<img class="subdo-img" src="../assets/images/1.3/img7.png" width="500" height="auto">
+<img class="subdo-img" src="../../assets/images/1.3/img7.png" width="500" height="auto">
 
 * An attack that combines an on-path attack with a downgrade attack in which the attacker sites in the middle of a conversation - must modify data between the victim and the web server acting as a proxy server or rogue Wi-Fi hotspot, using ARP spoofing, etc. The victim does not generally see any problem - except the browser page isn't encrypted. Removing the secure connection, traffic can be redirected, and instead of communicating to the web server the victim is communicating to the attacker.
 
@@ -334,7 +334,7 @@ _Security threats that involve altering system drivers to achieve a malicious ou
 
 #### Pass the hash
 
-<img class="subdo-img" src="../assets/images/1.3/img8.png" width="500" height="auto">
+<img class="subdo-img" src="../../assets/images/1.3/img8.png" width="500" height="auto">
 
 * Victim sends credentials to the server and during this attack intercepts (via ARP poisoning or some other form of redirection) the credentials on the network for the username and hashed password.
 * They can now pretend to be the original user by sending those hashed credentials and pass those credentials to the server as if it were doing this from the original client.
@@ -349,4 +349,4 @@ _Security threats that involve altering system drivers to achieve a malicious ou
 
 _Click or tap on 'Choose a Study Mode' to switch between flash cards, match, learn, test and more._
 
-<iframe src="https://quizlet.com/815016617/flashcards/embed?i=35mna1&x=1jj1" height="100%" width="100%" style="border:0"></iframe>
+<iframe src="https://quizlet.com/815016617/flashcards/embed?i=35mna1&x=1jj1" height="500" width="100%" style="border:0"></iframe>

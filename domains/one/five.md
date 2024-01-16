@@ -302,4 +302,4 @@ _Researching and understanding potential threats is an ongoing part of any secur
 
 _Click or tap on 'Choose a Study Mode' to switch between flash cards, match, learn, test and more._
 
-<iframe src="https://quizlet.com/815852736/flashcards/embed?i=35mna1&x=1jj1" height="100%" width="100%" style="border:0"></iframe>
+<iframe src="https://quizlet.com/815852736/flashcards/embed?i=35mna1&x=1jj1" height="500" width="100%" style="border:0"></iframe>

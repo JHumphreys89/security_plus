@@ -174,4 +174,4 @@ _Reasons why we patch vulnerabilities. Far reaching affects, malicious cyber act
 
 _Click or tap on 'Choose a Study Mode' to switch between flash cards, match, learn, test and more._
 
-<iframe src="https://quizlet.com/816391144/flashcards/embed?i=35mna1&x=1jj1" height="100%" width="100%" style="border:0"></iframe>
+<iframe src="https://quizlet.com/816391144/flashcards/embed?i=35mna1&x=1jj1" height="500" width="100%" style="border:0"></iframe>
