@@ -2,9 +2,7 @@
 layout: default
 ---
 
-<p style="text-align:center;">
-<a href="../../index.html">Back to Home</a> ♦ <a href="../domain_one.html">Back to Domain One</a>
-</p>
+[Back to Home](../../index.html) \| [Back to Domain One](../domain_one.html)
 
 # Subdomain 1.2
 
@@ -278,8 +276,7 @@ _You now have encrypted the data and sent it to another person - is it secure? T
 
 # Demonstrate Your Understanding
 
-<p style="text-align:center;">
-<a href="#top">Back to Top</a> ♦ <a href="../../resources/study_cards/sub_one_two.html" target="_blank">Study in a New Tab</a></p>
+[Back to Top](#top) \| [Study in a New Tab](../../resources/study_cards/sub_one_two.html){:target="_blank"}
 
 _Click or tap on 'Choose a Study Mode' to switch between flash cards, match, learn, test and more._
 

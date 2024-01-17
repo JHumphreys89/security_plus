@@ -2,9 +2,7 @@
 layout: default
 ---
 
-<p style="text-align:center;">
-<a href="../../index.html">Back to Home</a> ♦ <a href="../domain_one.html">Back to Domain One</a>
-</p>
+[Back to Home](../../index.html) \| [Back to Domain One](../domain_one.html)
 
 # Subdomain 1.4
 
@@ -193,8 +191,7 @@ Note: [GitHub](https://github.com/SSL-ACTX/SimpleDDoS) provides more information
 
 # Demonstrate Your Understanding
 
-<p style="text-align:center;">
-<a href="#top">Back to Top</a> ♦ <a href="../../resources/study_cards/sub_one_four.html" target="_blank">Study in a New Tab</a></p>
+[Back to Top](#top) \| [Study in a New Tab](../../resources/study_cards/sub_one_four.html){:target="_blank"}
 
 _Click or tap on 'Choose a Study Mode' to switch between flash cards, match, learn, test and more._
 
