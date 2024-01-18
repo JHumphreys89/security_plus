@@ -6,7 +6,7 @@ layout: default
 
 # Quizlet Resources
 
-_ Domain Reviews are set to tests by default but you can also choose from match, learn, flash cards and spell. In the bottom-right corner of the content window, select "Choose a Study Mode" to change the way the content is being fed._
+_Domain Reviews are set to tests by default but you can also choose from match, learn, flash cards and spell. In the bottom-right corner of the content window, select "Choose a Study Mode" to change the way the content is being fed._
 
 * [Domain 1](/study_cards/domains/one.html) - Attacks, Threats, and Vulnerabilities.
      - [Sub 1.1](/study_cards/sub_one_one.html) - Social Engineering techniques.
