@@ -1,6 +1,6 @@
 # SY0-601 - Domain Four - Review
 
-[Back to Home](/../../../index.html)
+[Back to Home](/../../index.html)
 
 _Complete domain 4 review which encompasses all five subdomains._
 

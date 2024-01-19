@@ -1,6 +1,6 @@
 # SY0-601 - Domain Five - Review
 
-[Back to Home](/../../../index.html)
+[Back to Home](/../../index.html)
 
 _Complete domain 5 review which encompasses all five subdomains._
 

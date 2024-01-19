@@ -1,6 +1,6 @@
 # SY0-601 - Domain Two - Review
 
-[Back to Home](/../../../index.html)
+[Back to Home](/../../index.html)
 
 _Complete domain 2 review which encompasses all eight subdomains._
 

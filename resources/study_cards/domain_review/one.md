@@ -1,6 +1,6 @@
 # SY0-601 - Domain One - Review
 
-[Back to Home](/../../../index.html)
+[Back to Home](../../index.html)
 
 _Complete domain 1 review which encompasses all eight subdomains._
 

@@ -1,6 +1,6 @@
 # SY0-601 - Domain Three - Review
 
-[Back to Home](/../../../index.html)
+[Back to Home](/../../index.html)
 
 _Complete domain 3 review which encompasses all nine subdomains._
 
