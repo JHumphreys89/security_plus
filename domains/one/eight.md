@@ -12,6 +12,94 @@ _Terms_: 22
 
 ***
 
+#### Penetration testing
+
+*
+
+##### Known environment
+
+*
+
+##### Unknown environment
+
+*
+
+##### Partially known environment
+
+*
+
+##### Rules of engagement
+
+*
+
+##### Lateral movement
+
+*
+
+##### Privilege escalation
+
+*
+
+##### Persistence
+
+*
+
+##### Cleanup
+
+*
+
+##### Bug bounty
+
+*
+
+##### Pivoting
+
+*
+
+#### Passive and active reconnaissance
+
+*
+
+##### Drones
+
+*
+
+##### War flying
+
+*
+
+##### War driving
+
+*
+
+##### Footprinting
+
+*
+
+##### OSINT
+
+*
+
+#### Exercise types
+
+*
+
+##### Red-team
+
+*
+
+##### Blue-team
+
+*
+
+##### White-team
+
+*
+
+##### Purple-team
+
+*
+
 ***
 
 # Demonstrate Your Understanding
