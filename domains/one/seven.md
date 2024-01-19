@@ -12,6 +12,125 @@ _Terms_: 26
 
 ***
 
+#### Threat Hunting
+
+__
+
+##### Intelligence Fusion
+
+*
+
+##### Threat Feeds
+
+*
+
+##### Advisories and Bulletins
+
+*
+
+##### Maneuver
+
+*
+
+#### Vulnerability Scans
+
+__
+
+##### False Positives
+
+*
+
+##### False Negatives
+
+*
+
+
+##### Log Reviews
+
+*
+
+
+##### Credentialed vs. Non-Credentialed
+
+*
+
+##### Intrusive vs. Non-Intrusive
+
+*
+
+
+##### Application
+
+*
+
+
+##### Web Application
+
+*
+
+
+##### Network
+
+*
+
+
+##### Common Vulnerabilities and Exposures (CVE)/Common Vulnerability Scoring System (CVSS)
+
+*
+
+
+##### Configuration Review
+
+*
+
+
+#### Syslog/Security Information and Event Management (SIEM)
+
+__
+
+
+##### Review Reports
+
+*
+
+
+##### Packet Capture
+
+*
+
+
+##### Data Inputs
+
+*
+
+##### User Behavior Analysis
+
+*
+
+
+##### Sentiment Analysis
+
+*
+
+
+##### Security Monitoring
+
+*
+
+
+##### Log Aggregation
+
+*
+
+
+##### Log Collectors
+
+*
+
+#### Security Orchestration, Automation, and Response (SOAR)
+
+*
+
 ***
 
 # Demonstrate Your Understanding
