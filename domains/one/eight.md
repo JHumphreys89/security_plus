@@ -102,26 +102,53 @@ _Terms_: 22
 
 * Open Source INTelligence.
 * Gathering information from many open sources such as find information on anyone or anything, or if the name is not related to open-source software.
+* [Data is everywhere](https://osintframework.com/).
+* Automated gathering with many software tools available.
 
 #### Exercise types
 
-*
+* Simulated cyber attack on a computer system to identify vulnerabilities and assess the security of the system.
+* Usually conducted by a team of security professionals who are authorized to perform the exercise and can be divided into multiple groups.
+* The teams:
+     - Red team
+     - Blue team
+     - Purple team
+     - White team
 
 ##### Red-team
 
-*
+* _Offense_ - hired attackers.
+* Goal is to find as many vulnerabilities as possible and exploit them to gain access to sensitive data or systems:
+     - Uses ethical hacking to find security holes.
+     - Exploit vulnerabilities to gain access.
+     - Use social engineering.
+     - Web application scanning.
 
 ##### Blue-team
 
-*
+* _Defense_ - Protect the data.
+* Use various techniques to detect and prevent the attack with the goal of identifying and fixing vulnerabilities before they can be exploited by the red team:
+     - Ops - daily security tasks.
+     - Incident response - damage control.
+     - Threat hunting - find and fix the holes.
+     - Digital forensics - find data everywhere.
 
 ##### White-team
 
-*
+* _Not on a side._
+* Is similar to a referee:
+     - Enforces rules.
+     - Resolves any issues.
+     - Determines the score.
+     - Manages post-event assessments such as lessons learned and results.
 
 ##### Purple-team
 
-*
+* _Offense and defense_ - working together.
+* Goal is to improve communication and collaboration between the two teams:
+     - Deploy apps and data securely - everyone is on board.
+     - Create a feedback loop where red informs blue and vice versa.
+     - Cooperate instead of compete. Internal battles can stile org. security.
 
 ***
 
