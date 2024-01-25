@@ -112,63 +112,106 @@ _Refers to the measures taken to safeguard data from unauthorized access, theft,
 
 #### Geographical Considerations
 
-*  
+*  Legal implications:
+     - Business regulations vary between states.
+     - For recovery sites outside of the country, personnel must have a passport and be able to clear immigration.
+     - Refer to your legal team.
+* Offsite backup - Org-owned site or 3rd-party secure facility.
+* Offsite recovery - hosted in a different location outside the scope of the disaster. Travel considerations for support staff an employees.
 
 #### Response and Recovery Controls
 
-* 
+* Incident response and recovery is commonplace and attacks are frequent and complex.
+* Incident response plans should be established. Documentation is critical. Identify and contain the attack.
+* Limit the impact of the attacker(s) and limit exfiltration as well as access to sensitive data.
 
 #### Secure Sockets Layer (SSL)/Transport Layer Security (TLS) Inspection
 
-* 
+* Relies on trust.
+* Browser contains a list of trusted Certificate Authorities (CAs). Doesn't trust a website unless a CA has signed the webserver's encryption certificate - the website pays some money to the CA for this.
+* The CA has ostensibly performed some checks - validated against the DNS record, phone call, etc.
+* Browser checks the webserver's CA and if it is signed by a trusted CA then the encryption works seamlessly.
 
 #### Hashing
 
-* 
+* Represent data as a short string of text - a message digest.
+* One-way trip. Impossible to recover the original message from the digest. Used to store passwords/confidentiality.
+* Verify a downloaded document is the same as the original - integrity.
+* Can be a digital signature - authentication, non-repudiation, and integrity.
+* Will not have a collision as different messages will not have the same hash.
 
 #### API Considerations
 
-* 
+* API = Application Programming Interface. Control software or hardware programmatically.
+* Secure and harden the login page and don't forget about the API.
+* On-path attack - intercept and modify API messages, replay API commands.
+* API Injection - inject data into an API message.
+* DDoS (Distributed Denial of Service) - one bad API call can bring down a system.
+* Security:
+     - Authentication - Limit API access to legit users and over secure protocols.
+     - Authorization - API should not allow extended access. Each user has a limited role. A read-only user should not be able to make any sort of changes.
+     - WAF (Web Application Firewall) - apply rules to API communication.
 
 #### Site Resiliency
 
-__
+_Achieved by using a recovery site, an alternative location that can take over after a disaster._
 
 ##### Hot Site
 
-* 
+* Most expensive to maintain.
+* An exact replica stocked with hardware that is constantly updated; you are essentially buying two of everything.
+* Essentially flip a switch and everything moves to this alternative site.
 
 ##### Cold Site
 
-* 
+* Least expensive to maintain.
+* No hardware, just an empty building.
+* No data - you bring this with you.
+* No people - you are bussing in your team.
 
 ##### Warm Site
 
-* 
+* Somewhere between hot and cold - just enough to get going.
+* Big room with rack space - you bring the hardware.
+* Hardware is ready and waiting - you bring the software and data.
 
 #### Deception and Disruption
 
-__
+_Security concepts that can be used in an enterprise environment to detect and prevent cyberattacks._
+
+* Deception - Involves creating a fake environment that is designed to lure attackers into revealing their presence and intentions.
+* Disruption - On the other hand, involves taking steps to prevent attackers from carrying out their intended actions.
 
 ##### Honeypots
 
-* 
+* Attract the bad guys and trap them there - A less secure server intended to attract attackers. Also used to observe attacker movements.
+* The attacker is probably a machine - makes for interesting recon.
+* Many different options such as Kippo, Google Hack Honeypot, Wordpot, etc.
 
 ##### Honeyfiles
 
-* 
+* Bait for the honeypot (passwords.txt) 😎
+* An alert is set if the file is accessed. A virtual bear trap.
 
 ##### Honeynets
 
-* 
+* Essentially, more than one honeypot on a network.
+* More than one source of information.
+* Stop spammers - https://projecthoneypot.org
 
 ##### Fake Telemetry
 
-* 
+* Corrupts the data sent to monitoring systems and can cause disruption.
+* Machine learning - interpret data to identify the invisible.
+* Train the machine with actual data - learn how malware looks and acts. Stop malware based on actions instead of signatures.
+* Send the machine learning model fake telemetry - make malicious malware look benign.
 
 ##### DNS Sinkhole
 
-* 
+* DNS that hands out incorrect IP addresses - blackhole DNS.
+* An attacker can redirect users to a malicious site.
+* Can also redirect known malicious domains to a benign IP address. Watch for any users hitting that IP address. Those devices are infect.
+* Can be integrated into a firewall. Identify infected devices not directly connected.
 
 ***
 

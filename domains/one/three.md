@@ -342,7 +342,7 @@ _Security threats that involve altering system drivers to achieve a malicious ou
 
 # Demonstrate Your Understanding
 
-[Back to Top](#top) \| [Study in a New Tab](../../resources/study_cards/sub_three.html){:target="_blank"}
+[Back to Top](#top) \| [Study in a New Tab](../../resources/study_cards/sub_one_three.html){:target="_blank"}
 
 _Click or tap on 'Choose a Study Mode' to switch between flash cards, match, learn, test and more._
 
