@@ -12,7 +12,142 @@ _Terms_: 32
 
 ***
 
+#### Environment
 
+_The different stages of the application lifecycle, such as development, test, staging, production and quality assurance. Each environment has its own security requirements and challenges._
+
+##### Development
+
+* Developers will begin writing code in a secure environment, usually a sandbox.
+* Sandboxing is an isolated test environment, usually with no connection to the internet or other computers. Used during the development process to try code, break code without any repercussions to the production environment as the sandboxing environment is segregated.
+
+##### Test
+
+* Still in the development stage.
+* Functional testing to make sure it all works together.
+
+##### Staging
+
+* Close to rollout and works and feels exactly like the production environment.
+* Working with a copy of production data.
+* Run performance testing and test usability and features.
+
+##### Production
+
+* Application is now live and rolled out to the user community.
+* There can be logistical challenges in this environment such as new servers, new software, and restart or interruption of service during implementation process.
+
+##### Quality Assurance (QA)
+
+* Verifies that features are working as expected and validates new functionality as well as making sure old errors do not appear.
+
+#### Provisioning and Deprovisioning
+
+* Provisioning:
+     - Deploy an application - web server, database server, middleware server, user workstation configurations, certificate updates, etc.
+     - Application software security - operating system, application.
+     - Network security - secure VLAN, internal access, external access.
+     - Software deployed to workstations - check executables for malicious code, verify security posture of the workstation.
+* Deprovisioning:
+     - Dismantling and removing an app instance.
+     - Security deprovisioning is important - don't leave open holes, don't close important ones.
+     - Firewall policies must be reverted. If the application is gone, so is the access.
+
+#### Integrity Measurement
+
+* 
+
+#### Secure Coding Techniques
+
+* 
+
+##### Normalization
+
+* 
+
+##### Stored Procedures
+
+* 
+
+##### Obfuscation/Camouflage
+
+* 
+
+##### Code Reuse/Dead Code
+
+* 
+
+##### Server-Side vs. Client-Side Execution + Validation
+
+* 
+
+##### Memory Management
+
+* 
+
+##### Use of Third-Party Libraries and Software Development Kits (SDKs)
+
+* 
+
+##### Data Exposure
+
+* 
+
+#### Open Web Application Security Project (OWASP)
+
+* 
+
+#### Software Diversity
+
+* 
+
+##### Compiler
+
+* 
+
+##### Binary
+
+* 
+
+#### Automation/Scripting
+
+* 
+
+##### Automated Courses of Action
+
+* 
+
+##### Continuous Monitoring
+
+* 
+
+##### Continuous Validation
+
+* 
+
+##### Continuous Integration
+
+* 
+
+##### Continuous Delivery
+
+* 
+
+##### Continuous Deployment
+
+* 
+
+#### Elasticity
+
+* 
+
+#### Scalability 
+
+* 
+
+#### Version Control
+
+* 
 
 ***
 
