@@ -37,30 +37,46 @@ _The process of verifying the identity of a user, device, or system. It is a cru
 
 ##### Attestation
 
-* 
+* Prove the hardware is really yours - a system that you can trust.
+* Easy when it is just your computer - more difficult when there are 1,000.
+* Remote attestation:
+     - Device provides an operational report to a verification server.
+     - Encrypted and digitally signed with the TPM.
+     - An IMEI or other unique hardware component can be included in the report.
 
 ##### Technologies
 
-* 
+_During the authentication process, we use many different technologies such as TOTP, HOTP, SMS, static codes, push notifications and more._
 
 ###### Time-Based One-Time Password (TOTP)
 
-* 
+* Use a secret key and the time of day - no incremental counter.
+* Secret key is configured ahead of time - timestamps are synchronized via NTP.
+* Timestamp usually increments every 30 seconds - put in your username, password, and TOTP code.
+* One of the more common OTP methods - used by Google, Facebook, Microsoft, etc.
 
 ###### HMAC-Based One-Time Password (HOTP)
 
-* 
+* Use them once, and then never again - once a session, once each authentication attempt.
+* Keyed-hash message authentication code (HMAC). The keys are based on a secret key and a counter.
+* Token-based authentication - the hash is different every time.
+* Hardware and software tokens available. You will need additional technology to make this work.
 
 ###### Short Message Service (SMS)
 
-* 
+* Text messaging.
+* Login factors can be sent via SMS to a predefined phone number. Provide username and password. Phone number receives an SMS. Input the SMS code into the login form.
+* Security issues do exist, such as phone number can be reassigned to a different phone. SMS messages can also be intercepted.
 
 ###### Token Key
 
-* 
+* A unique code or number that is used in addition to or in place of a password.
+* It acts like an electronic key to access something. 
+* For example, can be used to open a locked door or a bank-provided token can be used by a customer to access their bank account online.
 
 ###### Static Codes
 
+* Authentication factors that do not change.
 * 
 
 ###### Authentication Applications
