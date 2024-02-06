@@ -77,15 +77,18 @@ _During the authentication process, we use many different technologies such as T
 ###### Static Codes
 
 * Authentication factors that do not change.
-* 
+* Personal Identification Number (PIN).
+* Can also be alphanumeric - a password or passphrase.
 
 ###### Authentication Applications
 
-* 
+* Pseudo-random token generators that can be accessed from a device such as a mobile phone.
+* Software-based.
 
 ###### Push Notifications
 
-* 
+* Similar to SMS but the authentication factor is pushed through a specialized application to the phone.
+* Does have security challenges as apps themselves can be vulnerable and some apps push notifications are sent in the clear instead of redirecting the user back to the app to obtain the auth. factor.
 
 ###### Phone Call
 
