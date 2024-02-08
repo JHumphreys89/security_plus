@@ -12,7 +12,181 @@ _Terms_: 47
 
 ***
 
+#### Redundancy
 
+* 
+
+##### Geographic Dispersal 
+
+* 
+
+##### Disk
+
+* 
+
+###### Redundant array of inexpensive disks (RAID) levels
+
+* 
+
+###### Multipath
+
+* 
+
+##### Network
+
+* 
+
+###### Load balancers
+
+* 
+
+###### Network Interface Card (NIC) teaming
+
+* 
+
+##### Power
+
+* 
+
+###### Uninterrupted Power Supply (UPS)
+
+* 
+
+###### Generator
+
+* 
+
+###### Dual supply
+
+* 
+
+###### Managed Power Distribution Units (PDUs)
+
+* 
+
+#### Replication
+
+* 
+
+##### Storage Area Network (SAN)
+
+* 
+
+##### VM
+
+* 
+
+#### On-Prem Vs. Cloud
+
+* 
+
+#### Backup Types
+
+* 
+
+##### Full
+
+* 
+
+##### Incremental
+
+* 
+
+##### Snapshot
+
+* 
+
+##### Differential
+
+* 
+
+##### Tape
+
+* 
+
+##### Disk
+
+* 
+
+##### Copy
+
+* 
+
+##### Network-Attached Storage (NAS)
+
+* 
+
+##### Storage Area Network (SAN)
+
+* 
+
+##### Cloud
+
+* 
+
+##### Image
+
+* 
+
+##### Online vs. Offline
+
+* 
+
+##### Offsite storage
+
+* 
+
+###### Distance considerations
+
+* 
+
+#### Non-persistence
+
+* 
+
+##### Revert to known state
+
+* 
+
+##### Last known-good configuration
+
+* 
+
+##### Live boot media
+
+* 
+
+#### High availability
+
+* 
+
+##### Scalability
+
+* 
+
+#### Restoration order
+
+* 
+
+#### Diversity
+
+* 
+
+##### Technologies
+
+* 
+
+##### Vendors
+
+* 
+
+##### Crypto
+
+* 
+
+##### Controls
+
+* 
 
 ***
 
