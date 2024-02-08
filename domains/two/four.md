@@ -92,107 +92,126 @@ _During the authentication process, we use many different technologies such as T
 
 ###### Phone Call
 
-* 
+* A voice call that provides a token to the user, "Your code is 1-8-6-2-5."
+* Also has similar disadvantages to SMS as phone call can be intercepted or forwarded and phone number can be added to another phone.
 
 ##### Smart Card Authentication
 
-* 
+* An integrated circuit card which can be contacted or contactless and commonly used in credit cards.
+* Must have a physical card in order to provide digital access - a digital certificate.
+* Usually includes multiple factors such as using the card with a PIN or fingerprint scan.
 
 #### Biometrics
 
-* 
+_"Life measurement" used for security purposes._
+* Examples:
+      - Iris scans, voice, analysis, fingerprinting.
 
 ##### Fingerprint
 
-* 
+* Used on laptops, phones, or on door access.
+* Registers a fingerprint scan of the user.
 
 ##### Retina
 
-* 
+* Unique capillary structure in the back of the eye is registered and then used as authentication.
 
 ##### Iris
 
-* 
+* Texture or color of eye is recorded as an authentication factor.
 
 ##### Facial
 
-* 
+* Shape of the face and features are recorded as an authentication factor.
 
 ##### Voice
 
-* 
+* Talk for access.
 
 ##### Vein
 
-* 
+* Vascular scanners; match the blood vessels that are visible from the surface of the skin.
 
 ##### Gait Analysis
 
-* 
+* Identify a person based on how they walk.
 
 ##### Efficacy Rates
 
-* 
+* Measured by two metrics: false acceptance rate (FAR) and false rejection rate (FRR). Biometric authentication is not a perfect science and has its limitation.
 
 ##### False Acceptance
 
-* 
+* A biometric measurement of the percentage of valid users that will be falsely accepted by the system. This is called a type II error.
+* Type II errors are more dangerous than type I errors. Not sensitive enough.
 
 ##### False Rejection
 
-* 
+* A biometric measurement of valid users that will be falsely rejected by the system. This is called a type I error. Too sensitive
 
 ##### Crossover Error Rate
 
-* 
+* CER
+* Defines the overall accuracy of a biometric system.
 
 #### Multifactor Authentication (MFA) Factors and Attributes
 
-* 
+* MFA
+* Three primary factors of authentication is something you know, something you have, and something you are.
+* In addition to these factors, there are attributes that can be used to further enhance the security of MFA.
+* These include something you do, something you are, and someone you know.
 
 ##### Factors
 
-* 
+_Something you know, something you have, something you are._
 
 ###### Something You Know
 
-* 
+* This factor requires the user to prove knowledge of a secret - such as a password, PIN, or security question.
 
 ###### Something You Have
 
-* 
+* This factor requires the user to prove possession of a physical object, such as a smart card, USB key, or mobile phone.
 
 ###### Something You Are
 
-* 
+* This factor requires the user to prove their identity through a unique biological characteristic, such as a fingerprint, iris scan, or facial recognition.
 
 ##### Attributes
 
-* 
+_Something you are, something you can do, something you can exhibit, someone you know._
 
 ###### Somewhere You Are
 
-* 
+* This attribute refers to the location of the user and can be determined using GPS or IP address.
 
 ###### Something You Can Do
 
-* 
+* This attribute refers to the user's abilities or skills and can include typing speed, mouse movements, or voice recognition.
 
 ###### Something You Exhibit
 
-* 
+* A unique trait that is personal to you.
+* This could be a gait analysis - the way you walk.
+* This could be a typing analysis - the way you hit the enter key too hard on your keyboard.
 
 ###### Someone You Know
 
-* 
+* This attribute refers to the user's social network and can include contacts in their phonebook or friends on social media.
 
 #### Authentication, Authorization, and Accounting (AAA)
 
-* 
+* A framework that is used to provide security services for network access. It is a three-step process:
+      - Authentication: Process of verifying the identity of a user or device attempting to access the network.
+      - Authorization: After authentication. This process determines what resources the user or device is allowed to access on the network.
+      - Accounting: Final process. Used to track and record what resources were accessed by whom and when. This information can be used for auditing purposes or to detect security breaches.
+* _MFA is a common practice of AAA - uses multiple authentication factors to authenticate users and provides an additional layer of security.
 
 #### Cloud Vs. On-Premises Requirements
 
-* 
+* Cloud-based authentication and authorization requirements include centralized security, lower cost, and third-party IT services.
+* On-prem authentication and authorization requirements include complete control over the facility, users, and support team, as well as the ability to hire exactly the right people to make sure that all of your data is secure.
+* It is important to note that attackers do not care about where your data is located - you just have to be sure that it is secure no matter where it is stored.
 
 ***
 
